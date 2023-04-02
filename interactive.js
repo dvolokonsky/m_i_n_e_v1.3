@@ -1,8 +1,7 @@
 var images = [
-  'image1.jpg',
-  'image2.jpg',
-  'image3.jpg',
-  'image4.jpg'
+  '2022-10-07_13.01.53.png',
+  '2022-10-07_15.49.47.png',
+  '2023-02-18_21.45.36.png'
 ];
 
 var currentIndex = 0;
