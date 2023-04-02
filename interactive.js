@@ -1,22 +1,36 @@
-var images = [
-  '2022-10-07_13.01.53.png',
-  '2022-10-07_15.49.47.png',
-  '2023-02-18_21.45.36.png'
-];
+const dots = document.querySelectorAll(".dot");
+let slideIndex = 1;
+showSlides(slideIndex);
 
-var currentIndex = 0;
-
-function changeImage() {
-  // збільшити поточний індекс на 1
-  currentIndex++;
-
-  // якщо поточний індекс дорівнює довжині масиву, повернутися до першого зображення
-  if (currentIndex == images.length) {
-    currentIndex = 0;
-  }
-
-  // змінити шлях зображення на нове зображення
-  document.getElementById('slideshow').src = images[currentIndex];
+function plusSlides(n) {
+  showSlides((slideIndex += n));
 }
 
-setInterval(changeImage, 5000);
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+  let i;
+  const slides = document.querySelectorAll(".mySlides");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].classList.remove("active");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].classList.add("active");
+}
+
+dots.forEach((dot, index) => {
+  dot.addEventListener("click", () => {
+    currentSlide(index + 1);
+  });
+});
