@@ -7,18 +7,28 @@
     <link rel="interactive" href="interactive.js">
     <link rel="stylesheet" href="styles.css">
     <title>Головна</title>
+    <!-- Підключаємо jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Підключаємо Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 </head>
 <body>
-    <div class="gallery">
-        <div class="slides">
-            <img src="https://picsum.photos/id/1018/900/300" />
-            <img src="https://picsum.photos/id/1015/900/300" />
-            <img src="https://picsum.photos/id/1019/900/300" />
+    <div class="gallery-container">
+        <div class="gallery-carousel">
+            <img class="gallery-image" src="img/img1.png" alt="Image 1">
+            <img class="gallery-image" src="img/img2.png" alt="Image 2">
+            <img class="gallery-image" src="img/img3.png" alt="Image 3">
+            <img class="gallery-image" src="img/img4.png" alt="Image 4">
         </div>
-        <div class="dots">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+        <div class="gallery-dots">
+            <button class="gallery-dot"></button>
+            <button class="gallery-dot"></button>
+            <button class="gallery-dot"></button>
+            <button class="gallery-dot"></button>
         </div>
     </div>
 </body>
