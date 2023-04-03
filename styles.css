@@ -1,10 +1,7 @@
-#slider{ /*Положення слайдера*/
+#slider { /*Положення та центрування слайдера*/
     position: relative;
     text-align: center;
     top: 10px;
-}
-
-#slider{ /*Центрування слайдера*/
     margin: 0 auto;
 }
 
