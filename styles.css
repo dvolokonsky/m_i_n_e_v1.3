@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 
-#slider article{ /*Усі зображення праворуч один від одного*/
+#slides article{ /*Усі зображення праворуч один від одного*/
     width: 20%;
     float: left;
 }
@@ -32,10 +32,10 @@ article img{ /*Розмір зображень слайдера*/
 }
 
 /*Налаштування переключень та положень для лівої кнопки*/
-#switch1:checked ~ #controls ladel:nth-child(4),
-#switch2:checked ~ #controls ladel:nth-child(1),
-#switch3:checked ~ #controls ladel:nth-child(2),
-#switch4:checked ~ #controls ladel:nth-child(3){
+#switch1:checked ~ #controls label:nth-child(4),
+#switch2:checked ~ #controls label:nth-child(1),
+#switch3:checked ~ #controls label:nth-child(2),
+#switch4:checked ~ #controls label:nth-child(3){
     background: url('img/prev.png') no-repeat; 
     float: left;
     margin: 0 0 0 -84px;
@@ -44,11 +44,11 @@ article img{ /*Розмір зображень слайдера*/
     width: 68px;
 }
 
-/*Налаштування переключень та положень для лівої кнопки*/
-#switch1:checked ~ #controls ladel:nth-child(4),
-#switch2:checked ~ #controls ladel:nth-child(1),
-#switch3:checked ~ #controls ladel:nth-child(2),
-#switch4:checked ~ #controls ladel:nth-child(3) {
+/*Налаштування переключень та положень для правої кнопки*/
+#switch1:checked ~ #controls label:nth-child(2),
+#switch2:checked ~ #controls label:nth-child(3),
+#switch3:checked ~ #controls label:nth-child(4),
+#switch4:checked ~ #controls label:nth-child(1) {
     background: url('img/next.jpg') no-repeat;
     float: right;
     margin: 0 -84px 0 0;
@@ -65,19 +65,19 @@ label, a{
     display: none;
 }
 
-#switch1:checked ~ #cliders .image{
+#switch1:checked ~ #slides .image{
     margin-left: 0;
 }
 
-#switch2:checked ~ #cliders .image{
+#switch2:checked ~ #slides .image{
     margin-left: -100%;
 }
 
-#switch3:checked ~ #cliders .image{
+#switch3:checked ~ #slides .image{
     margin-left: -200%;
 }
 
-#switch4:checked ~ #cliders .image{
+#switch4:checked ~ #slides .image{
     margin-left: -300%;
 }
 
@@ -100,7 +100,7 @@ label, a{
     text-align: center;
 }
 
-#active label:hover{ /*Реакція при навеенні*/ 
+#active label:hover{ /*Реакція при наведенні*/ 
     background: #76c8ff;
     border-color: #777 !important; /*Виконання в будь-якому випадку*/
 }
@@ -122,6 +122,6 @@ label, a{
     opacity: 0.6;
 }
 
-#controls label{ /*ПРозорість стрілок-перемикачів при відведенні курсору*/
+#controls label{ /*Пpозорість стрілок-перемикачів при відведенні курсору*/
     transition: opacity 0.2s ease-out;
 }
