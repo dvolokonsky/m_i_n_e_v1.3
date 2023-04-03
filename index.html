@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="ua">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Головна</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
 </head>
 <body>
-    <div id="all">
+    <div class="all">
         <input checked type="radio" name="respond" id="desktop">
             <article id="slider">
-                <input checked type="radio" name="slider" id="switch1">
-                <input type="radio" name="slider" id="switch2">
-                <input type="radio" name="slider" id="switch3">
-                <input type="radio" name="slider" id="switch4">
-
-                <div>
+                    <input checked type="radio" name="slider" id="switch1">
+                    <input type="radio" name="slider" id="switch2">
+                    <input type="radio" name="slider" id="switch3">
+                    <input type="radio" name="slider" id="switch4">
+                <div id="slides"></div>
                     <div id="overflow">
                         <div class="image">
                             <article><img src="img/img1.png"></article>
@@ -32,7 +29,6 @@
                     <label for="switch3"></label>
                     <label for="switch4"></label>
                 </div>
-
                 <div id="active">
                     <label for="switch1"></label>
                     <label for="switch2"></label>
