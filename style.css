@@ -1,11 +1,8 @@
 #slider { /*положение слайдера*/
     position: relative;
 	text-align: center;
-    top: 10px;
-}
-
-#slider{ /*центровка слайдера*/
 	margin: 0 auto;
+    top: 10px;
 }
 
 #slides article{ /*все изображения справа друг от доруга*/
