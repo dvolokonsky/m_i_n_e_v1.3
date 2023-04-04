@@ -115,3 +115,18 @@ label, a{ /*при наведении на стрелки или переклю�
 #controls label{ /*прозрачность стрелок при отводе курсора*/
 	transition: opacity 0.2s ease-out;
 }
+
+.sidebar{
+	background-color: grey;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 250px !important;
+	height: 200px !important;
+	display: flex;
+}
+
+.logoimg{
+	margin-top: 20px !important;
+	margin-right: 20px !important;
+}
