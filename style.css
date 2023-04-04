@@ -120,6 +120,17 @@ label, a{ /*при наведении на стрелки или переклю�
 	transition: opacity 0.2s ease-out;
 }
 
+.works{
+	font-size: 30px;
+	color: #bbb;
+	margin-left: 50px;
+}
+
+.flex{
+	display: flex;
+	margin-top: -15px;
+}
+
 .sidebarframe{
 	background-color: whitesmoke;
 	border-radius: 10px;
