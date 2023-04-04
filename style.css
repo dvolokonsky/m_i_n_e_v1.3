@@ -1,3 +1,7 @@
+body{
+	font-family: 'Comfortaa', cursive;
+}
+
 .one{
 	border-radius: 15px;
 }
@@ -121,14 +125,23 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .works{
-	font-size: 30px;
-	color: #bbb;
-	margin-left: 50px;
+	font-size: 33px;
+	color: whitesmoke;
+	margin-left: 40px;
 }
 
 .flex{
 	display: flex;
 	margin-top: -15px;
+}
+
+li{
+	color: whitesmoke;
+	margin-left: 40px;
+}
+
+a{
+	margin-left: -25px;
 }
 
 .sidebarframe{
