@@ -117,21 +117,15 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .sidebar{
-	background-color: grey;
+	background-color: black;
 	position: absolute;
 	top: 5px;
 	right: 5px;
-	width: 250px !important;
-	height: 200px !important;
-	display: flex;
+	width: 217px !important;
+	height: 150px !important;
+
 }
 
-.mb{
-	margin-top: 12px !important;
-	font-size: 20px;
-}
-
-.logoimg{
-	margin-top: 10px !important;
-	margin-right: 0px !important;
+.logo{
+	padding: 5px !important;
 }
