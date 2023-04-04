@@ -116,12 +116,24 @@ label, a{ /*при наведении на стрелки или переклю�
 	transition: opacity 0.2s ease-out;
 }
 
+.sidebarframe{
+	background-color: whitesmoke;
+	border-radius: 10px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 225px !important;
+	height: 110px !important;
+}
+
 .sidebar{
 	position: absolute;
 	top: 5px;
 	right: 5px;
-	width: 217px !important;
-	height: 150px !important;
+	width: 215px !important;
+	height: 100px !important;
+	background-color: black;
+	border-radius: 10px;
 }
 
 .logo{
