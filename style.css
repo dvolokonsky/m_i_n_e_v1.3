@@ -126,6 +126,11 @@ label, a{ /*при наведении на стрелки или переклю�
 	display: flex;
 }
 
+.mb{
+	padding: 5px;
+	font-size: 30px;
+}
+
 .logoimg{
 	margin-top: 20px !important;
 	margin-right: 20px !important;
