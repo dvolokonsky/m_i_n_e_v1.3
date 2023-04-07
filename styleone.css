@@ -38,7 +38,7 @@ article img {
 
 #desktop:checked~#slider {
     /*размер всего слайдера*/
-    max-width: 1093px;
+    max-width: 1025px;
     /*максимальнная длинна*/
 }
 
