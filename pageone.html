@@ -8,47 +8,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("img/background.png");
+            background-size: cover;
+            background-color: black;
+        }
+    </style>
     <title>Милий стартовий будиночок.</title>
 </head>
 <body>
-    <div class="all">
-        <input checked type="radio" name="respond" id="desktop">
-        <article id="slider">
-            <input checked type="radio" name="slider" id="switch1">
-            <input type="radio" name="slider" id="switch2">
-            <input type="radio" name="slider" id="switch3">
-            <input type="radio" name="slider" id="switch4">
-            <input type="radio" name="slider" id="switch5">
-            <input type="radio" name="slider" id="switch6">
-            <div id="slides">
-                <div id="overflow">
-                    <div class="image">
-                        <article><img class="one" src="img/2.1.png"></article>
-                        <article><img class="one" src="img/2.2.png"></article>
-                        <article><img class="one" src="img/2.3.png"></article>
-                        <article><img class="one" src="img/2.4.png"></article>
-                        <article><img class="one" src="img/2.5.png"></article>
-                        <article><img class="one" src="img/2.6.png"></article>
+    <div>
+        <div class="all">
+            <input checked type="radio" name="respond" id="desktop">
+            <article id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <input type="radio" name="slider" id="switch5">
+                <input type="radio" name="slider" id="switch6">
+                <div id="slides">
+                    <div id="overflow">
+                        <div class="image">
+                            <article><img class="one" src="img/2.1.2.png"></article>
+                            <article><img class="one" src="img/2.2.2.png"></article>
+                            <article><img class="one" src="img/2.3.2.png"></article>
+                            <article><img class="one" src="img/2.4.2.png"></article>
+                            <article><img class="one" src="img/2.5.2.png"></article>
+                        </div>
                     </div>
                 </div>
+                <div id="controls">
+                    <label for="switch1"></label>
+                    <label for="switch2"></label>
+                    <label for="switch3"></label>
+                    <label for="switch4"></label>
+                    <label for="switch5"></label>
+                </div>
+                <div id="active">
+                    <label for="switch1"></label>
+                    <label for="switch2"></label>
+                    <label for="switch3"></label>
+                    <label for="switch4"></label>
+                    <label for="switch5"></label>
+                </div>
+            </article>
+        </div>
+        <div class="sidebarframe">
+            <div class="sidebar">
+                <img class="logo" src="img/logo.png" width="207px" height="84px">
             </div>
-            <div id="controls">
-                <label for="switch1"></label>
-                <label for="switch2"></label>
-                <label for="switch3"></label>
-                <label for="switch4"></label>
-                <label for="switch5"></label>
-                <label for="switch6"></label>
-            </div>
-            <div id="active">
-                <label for="switch1"></label>
-                <label for="switch2"></label>
-                <label for="switch3"></label>
-                <label for="switch4"></label>
-                <label for="switch5"></label>
-                <label for="switch6"></label>
-            </div>
-        </article>
+        </div>
     </div>
 </body>
 </html>
