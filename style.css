@@ -2,14 +2,24 @@ body{
 	font-family: 'Comfortaa', cursive;
 }
 
+.main{
+	border: 5px solid whitesmoke;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-left: 10px;	
+	max-width: 1340px;
+	max-height: 595px;
+	display: flex;
+}
+
 .one{
 	border-radius: 15px;
 }
 
 #slider { /*положение слайдера*/
-    position: relative;
-	top: 5px;
-	left: 5px;
+	position: static;
+	margin-top: 5px;
+	margin-left: 5px;
 }
 
 #slides article{ /*все изображения справа друг от доруга*/
@@ -136,7 +146,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 li{
-	color: whitesmoke;
+	color: navy;
 	margin-left: 40px;
 }
 
@@ -145,20 +155,7 @@ a{
 	color: navy;
 }
 
-.sidebarframe{
-	background-color: whitesmoke;
-	border-radius: 10px;
-	position: absolute;
-	top: 5px;
-	right: 5px;
-	width: 225px !important;
-	height: 110px !important;
-}
-
 .sidebar{
-	position: absolute;
-	top: 5px;
-	right: 5px;
 	width: 215px !important;
 	height: 100px !important;
 	background-color: black;
