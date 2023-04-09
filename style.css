@@ -165,7 +165,7 @@ a{
 	border-radius: 10px;
 	position: relative;
 	top: 5px;
-	left: 155px;
+	left: 145px !important;
 }
 
 .logo{
