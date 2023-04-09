@@ -9,6 +9,9 @@ body{
 	margin-left: 10px;	
 	max-width: 1340px;
 	max-height: 595px;
+}
+
+.flexm{
 	display: flex;
 }
 
@@ -160,6 +163,9 @@ a{
 	height: 100px !important;
 	background-color: black;
 	border-radius: 10px;
+	position: relative;
+	top: 5px;
+	left: 155px;
 }
 
 .logo{
