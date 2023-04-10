@@ -138,7 +138,7 @@ label, a{ /*при наведении на стрелки или переклю�
 
 .works{
 	font-size: 33px;
-	color: whitesmoke;
+	color: wheat;
 	margin-left: 40px;
 }
 
@@ -148,13 +148,18 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 li{
-	color: navy;
+	color: whitesmoke;
 	margin-left: 40px;
 }
 
 a{
 	margin-left: -25px;
-	color: navy;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+a:hover{
+	opacity: 0.6;
 }
 
 .sidebar{
