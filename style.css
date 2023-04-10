@@ -5,10 +5,9 @@ body{
 .main{
 	border: 5px solid whitesmoke;
 	border-radius: 15px;
-	margin-top: 10px;
-	margin-left: 10px;	
-	max-width: 1340px;
-	max-height: 595px;
+	margin: auto !important;
+	width: 1330px !important;
+	height: 595px !important;
 }
 
 .flexm{
@@ -45,7 +44,7 @@ article img{ /*размер изображений слайдера*/
 }
 
 #desktop:checked ~ #slider{ /*размер всего слайдера*/
-	max-width: 960px; /*максимальнная длинна*/
+	width: 960px !important; /*максимальнная длинна*/
 }
 
 /*настройка переключения и положения для правой стрелки*/
