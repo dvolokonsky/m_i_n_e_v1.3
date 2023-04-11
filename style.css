@@ -174,7 +174,7 @@ li{
 	margin-left: 40px;
 }
 
-a{
+.a{
 	margin-left: -25px;
 	color: whitesmoke;
 	text-decoration: none;
@@ -196,4 +196,13 @@ a:hover{
 
 .logo{
 	padding: 5px !important;
+}
+
+.uf{
+	color: wheat;
+	font-size: 20px;
+	padding: 15px;
+	text-decoration: none;
+	position: relative;
+	left: 250px;
 }
