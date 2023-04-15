@@ -7,7 +7,7 @@ body{
 	border-radius: 12px;
 	margin: auto !important;
 	width: 1064px !important;
-	height: 720px !important;
+	height: 715px !important;
 	backdrop-filter: blur(4px);
 }
 
@@ -45,7 +45,7 @@ article img{ /*размер изображений слайдера*/
 }
 
 #desktop:checked ~ #slider{ /*размер всего слайдера*/
-	width: 768px !important; /*максимальнная длинна*/
+	width: 768px !important; /*Длинна*/
 }
 
 /*настройка переключения и положения для правой стрелки*/
