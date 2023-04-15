@@ -1,0 +1,8 @@
+.frame {
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    margin: auto !important;
+    width: 1200px !important;
+    height: 500px !important;
+    backdrop-filter: blur(4px);
+}
