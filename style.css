@@ -58,7 +58,7 @@ article img{ /*размер изображений слайдера*/
 	background-size: 54px 54px;
 	float: right;
 	margin: 0 -67px 0 0;	/*сдвиг вправо*/
-	
+	display: block;
 	height: 54px;
 	width: 54px;
 }

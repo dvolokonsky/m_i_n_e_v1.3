@@ -58,8 +58,7 @@ article img {
     width: 68px;
 }
 
-label,
-a {
+label, a {
     /*при наведении на стрелки или переключатели - курсор изменится*/
     cursor: pointer;
 }
