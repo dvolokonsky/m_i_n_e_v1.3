@@ -22,13 +22,12 @@ li{
     border-radius: 10px;
     margin: auto !important;
     width: 1000px !important;
-    height: 580px !important;
     backdrop-filter: blur(4px);
 }
 
 .main{
     width: 950px;
-    height: 550px;
+    margin-bottom: 20px;
     margin-left: 20px;
 }
 
