@@ -1,8 +1,43 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+li{
+    color: whitesmoke;
+    text-align: justify;
+}
+
 .frame {
-    border: 5px solid whitesmoke;
-    border-radius: 15px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
     margin: auto !important;
-    width: 1200px !important;
-    height: 500px !important;
+    width: 1000px !important;
+    height: 580px !important;
     backdrop-filter: blur(4px);
+}
+
+.main{
+    width: 950px;
+    height: 550px;
+    margin-left: 20px;
+}
+
+.section_title{
+    font-size: 30px;
+    padding-left: 10px;
+    color: whitesmoke;
+}
+
+.more_specifically{
+    text-indent: 10px;
 }
