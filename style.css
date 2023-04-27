@@ -20,7 +20,7 @@ body{
 }
 
 #slider { /*положение слайдера*/
-	position: static;
+	position: relative;
 	margin-top: 4px;
 	margin-left: 4px;
 }
