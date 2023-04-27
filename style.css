@@ -3,11 +3,11 @@ body{
 }
 
 .main{
-	border: 4px solid whitesmoke;
-	border-radius: 12px;
+	border: 3px solid whitesmoke;
+	border-radius: 10px;
 	margin: auto !important;
-	width: 1064px !important;
-	height: 715px !important;
+	width: 852px !important;
+	height: 580px !important;
 	backdrop-filter: blur(4px);
 }
 
@@ -16,13 +16,13 @@ body{
 }
 
 .one{
-	border-radius: 15px;
+	border-radius: 12px;
 }
 
 #slider { /*положение слайдера*/
 	position: relative;
-	margin-top: 4px;
-	margin-left: 4px;
+	margin-top: 3px;
+	margin-left: 3px;
 }
 
 #slides article{ /*все изображения справа друг от доруга*/
@@ -45,7 +45,7 @@ article img{ /*размер изображений слайдера*/
 }
 
 #desktop:checked ~ #slider{ /*размер всего слайдера*/
-	width: 768px !important; /*Длинна*/
+	width: 615px !important; /*Длинна*/
 }
 
 /*настройка переключения и положения для правой стрелки*/
@@ -55,12 +55,12 @@ article img{ /*размер изображений слайдера*/
 #switch4:checked~#controls label:nth-child(5),
 #switch5:checked~#controls label:nth-child(1){
 	background: url('img/next.png') no-repeat;	/*заливка фона картинкой без повторений*/
-	background-size: 54px 54px;
+	background-size: 43px 43px;
 	float: right;
-	margin: 0 -67px 0 0;	/*сдвиг вправо*/
+	margin: 0 -54px 0 0;	/*сдвиг вправо*/
 	display: block;
-	height: 54px;
-	width: 54px;
+	height: 43px;
+	width: 43px;
 }
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
@@ -95,14 +95,14 @@ label, a{ /*при наведении на стрелки или переклю�
 #controls{ /*положение блока всех управляющих элементов*/
 	margin: -25% 0 0 0;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 }
 
 #active label{ /*стиль отдельного переключателя*/
-	border-radius: 8px; /*скругление углов*/
+	border-radius: 7px; /*скругление углов*/
 	display: inline-block; /*расположение в строку*/
-	width: 12px;
-	height: 12px;
+	width: 10px;
+	height: 10px;
 	background: #bbb;
 }
 
@@ -139,51 +139,51 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .about{
-	border: 4px solid wheat;
-	border-radius: 12px;
-	padding: 10px !important;
-	margin-top: 30px !important;
+	border: 3px solid wheat;
+	border-radius: 8px;
+	padding: 8px !important;
+	margin-top: 23px !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
-	width: 960px !important;
-	height: 180px !important;
+	width: 768px !important;
+	height: 142px !important;
 }
 
 .at{
-	margin-top: -15px;
-	text-indent: 10px;
-	font-size: 20px;
+	margin-top: -12px;
+	text-indent: 8px;
+	font-size: 16px;
 	color: wheat;
 	text-align: justify;
 }
 
 .ps{
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 	color: navy;
 }
 
 .works{
-	font-size: 26px;
+	font-size: 21px;
 	color: wheat;
-	margin-left: 32px;
+	margin-left: 27px;
 }
 
 .flex{
 	display: flex;
-	margin-top: -12px;
+	margin-top: -10px;
 }
 
 li{
 	color: whitesmoke;
-	margin-left: 40px;
+	margin-left: 32px;
 }
 
 .a{
-	margin-left: -20px;
+	margin-left: -16px;
 	color: whitesmoke;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 a:hover{
@@ -191,24 +191,25 @@ a:hover{
 }
 
 .sidebar{
-	width: 172px !important;
-	height: 80px !important;
+	width: 138px !important;
+	height: 64px !important;
 	background-color: black;
-	border-radius: 10px;
+	border-radius: 8px;
 	position: relative;
-	top: 4px;
-	left: 117px !important;
+	top: 3px;
+	left: 94px !important;
+	margin-bottom: -10px;
 }
 
 .logo{
-	padding: 5px !important;
+	padding: 4px !important;
 }
 
 .uf{
 	color: wheat;
-	font-size: 16px;
-	padding: 15px;
+	font-size: 13px;
+	padding: 12px;
 	text-decoration: none;
 	position: relative;
-	left: 200px;
+	left: 160px;
 }
