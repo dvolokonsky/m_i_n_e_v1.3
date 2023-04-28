@@ -7,23 +7,23 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
 
 body::-webkit-scrollbar-track {
     background-color: whitesmoke;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
 body::-webkit-scrollbar-thumb {
-    border-radius: 50px;
+    border-radius: 40px;
     background-color:black;
     box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
 }
 
 body {
     font-family: "system-ui";
-    line-height: 1.4;
+    line-height: 1,4;
     padding: 1rem;
     background-color: whitesmoke;
 }
@@ -39,7 +39,7 @@ body {
 a{
     color: whitesmoke;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 a:hover {
@@ -52,25 +52,25 @@ li{
 }
 
 .frame {
+    margin: auto;
     border: 3px solid whitesmoke;
-    border-radius: 10px;
-    margin: auto !important;
-    width: 1000px !important;
+    border-radius: 8px;
+    width: 852px !important;
     backdrop-filter: blur(4px);
 }
 
 .main{
-    width: 950px;
+    width: 802px;
     margin-bottom: 20px;
     margin-left: 20px;
 }
 
 .section_title{
-    font-size: 30px;
+    font-size: 22px;
     padding-left: 10px;
     color: whitesmoke;
 }
 
 .more_specifically{
-    text-indent: 10px;
+    text-indent: 8px;
 }
