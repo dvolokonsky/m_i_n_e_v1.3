@@ -57,9 +57,32 @@ li{
     border-radius: 8px;
     width: 852px !important;
     backdrop-filter: blur(4px);
+    position: relative;
+}
+
+.sidebar{
+    width: 138px !important;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+
+.logo{
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.back{
+    color: wheat;
+	font-size: 13px;
+	padding-top: 5px;
+    margin-left: 85px;
+    text-decoration: none;
 }
 
 .main{
+    padding-top: 20px;
     width: 802px;
     margin-bottom: 20px;
     margin-left: 20px;
