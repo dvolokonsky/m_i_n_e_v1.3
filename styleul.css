@@ -115,3 +115,7 @@ li{
 .more_specifically{
     text-indent: 8px;
 }
+
+.important{
+    color: red;
+}
