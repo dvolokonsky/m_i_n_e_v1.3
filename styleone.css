@@ -6,6 +6,17 @@ body {
     border-radius: 20px;
 }
 
+.main {
+
+    margin: auto;
+    border: 3px solid whitesmoke;
+    border-radius: 8px;
+    width: 1200px !important;
+    backdrop-filter: blur(4px);
+    position: relative;
+
+}
+
 #slider {
     /*положение слайдера*/
     position: relative;
@@ -145,26 +156,16 @@ label, a {
     transition: opacity 0.2s ease-out;
 }
 
-.sidebarframe {
-    background-color: whitesmoke;
-    border-radius: 10px;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    width: 225px !important;
-    height: 110px !important;
-}
-
 .sidebar {
+    width: 138px !important;
     position: absolute;
-    top: 5px;
-    right: 5px;
-    width: 215px !important;
-    height: 100px !important;
-    background-color: black;
-    border-radius: 10px;
+    top: 3px;
+    right: 3px;
 }
 
 .logo {
-    padding: 5px !important;
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 5px;
 }
