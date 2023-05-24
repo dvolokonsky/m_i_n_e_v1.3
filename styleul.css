@@ -90,13 +90,24 @@ li{
     background-color: black;
     padding: 4px;
     border-radius: 8px;
+    margin-bottom: 5px;
 }
 
 .back{
-    color: wheat;
-	font-size: 13px;
 	padding-top: 5px;
-    margin-left: 85px;
+    margin-left: 80px;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.back:hover {
+    outline: 2px solid wheat;
+    opacity: 0.6;
+}
+
+.back a {
+    color: wheat;
+    font-size: 13px;
     text-decoration: none;
 }
 

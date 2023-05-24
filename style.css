@@ -1,18 +1,16 @@
 body{
 	font-family: 'Comfortaa', cursive;
+	padding-top: 15px;
 }
 
 .main{
 	border: 3px solid whitesmoke;
 	border-radius: 10px;
-	margin: auto !important;
+	margin: auto;
 	width: 852px !important;
 	height: 580px !important;
 	backdrop-filter: blur(4px);
-}
-
-.flexm{
-	display: flex;
+	position: relative;
 }
 
 .one{
@@ -188,28 +186,36 @@ li{
 
 a:hover{
 	opacity: 0.6;
+	text-decoration: underline;
 }
 
-.sidebar{
+.sidebar {
 	width: 138px !important;
-	height: 64px !important;
-	background-color: black;
-	border-radius: 8px;
-	position: relative;
+	position: absolute;
 	top: 3px;
-	left: 94px !important;
-	margin-bottom: -10px;
+	right: 3px;
 }
 
-.logo{
-	padding: 4px !important;
+.logo {
+	background-color: black;
+	padding: 4px;
+	border-radius: 8px;
+	margin-bottom: 5px;
 }
 
-.uf{
+.uf {
+	margin-left: 75px;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+.uf:hover {
+	outline: 2px solid wheat;
+	opacity: 0.6;
+}
+
+.uf a {
 	color: wheat;
 	font-size: 13px;
-	padding: 12px;
 	text-decoration: none;
-	position: relative;
-	left: 160px;
-}
+}	
