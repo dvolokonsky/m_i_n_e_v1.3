@@ -73,7 +73,7 @@ li{
 .frame {
     margin: auto;
     border: 3px solid whitesmoke;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 852px !important;
     backdrop-filter: blur(4px);
     position: relative;
