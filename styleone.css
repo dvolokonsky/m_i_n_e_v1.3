@@ -7,11 +7,10 @@ body {
 }
 
 .main {
-
     margin: auto;
     border: 3px solid whitesmoke;
-    border-radius: 8px;
-    width: 1200px !important;
+    border-radius: 10px;
+    width: 852px !important;
     backdrop-filter: blur(4px);
     position: relative;
 
@@ -169,3 +168,4 @@ label, a {
     border-radius: 8px;
     margin-bottom: 5px;
 }
+
