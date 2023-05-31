@@ -3,7 +3,9 @@ body {
 }
 
 .one {
-    border-radius: 20px;
+    border-radius: 10px;
+    width: 675px;
+    height: 380px;
 }
 
 .main {
@@ -19,8 +21,8 @@ body {
 #slider {
     /*положение слайдера*/
     position: relative;
-    top: 5px;
-    left: 5px;
+    margin-top: 3px;
+    margin-left: 3px;
 }
 
 #slides article {
@@ -43,14 +45,13 @@ body {
 
 article img {
     /*размер изображений слайдера*/
-    width: 80% !important;
-    height: 80% !important;
+    width: 100%;
 }
 
 #desktop:checked~#slider {
     /*размер всего слайдера*/
-    max-width: 800px;
-    /*максимальнная длинна*/
+    width: 675px !important;
+    /*Длинна*/
 }
 
 /*настройка переключения и положения для правой стрелки*/
@@ -61,12 +62,13 @@ article img {
 #switch5:checked~#controls label:nth-child(1) {
     background: url('img/next.png') no-repeat;
     /*заливка фона картинкой без повторений*/
+    background-size: 60px 60px;
     float: right;
-    margin: 0 -50px 0 0;
+    margin: -40px -70px 0 0;
     /*сдвиг вправо*/
     display: block;
-    height: 68px;
-    width: 68px;
+    height: 60px;
+    width: 60px;
 }
 
 label, a {
@@ -85,42 +87,42 @@ label, a {
 }
 
 #switch2:checked~#slides .image {
-    margin-left: -80%;
+    margin-left: -100%;
 }
 
 #switch3:checked~#slides .image {
-    margin-left: -160%;
+    margin-left: -200%;
 }
 
 #switch4:checked~#slides .image {
-    margin-left: -240%;
+    margin-left: -300%;
 }
 
 #switch5:checked~#slides .image {
-    margin-left: -360%;
+    margin-left: -400%;
 }
 
 #controls {
     /*положение блока всех управляющих элементов*/
-    margin: -32% 0 0 0;
+    margin: -27% 0 0 0;
     width: 100%;
-    height: 50px;
+    height: 60px;
 }
 
 #active label {
     /*стиль отдельного переключателя*/
-    border-radius: 10px;
+    border-radius: 7px;
     /*скругление углов*/
     display: inline-block;
     /*расположение в строку*/
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     background: #bbb;
 }
 
 #active {
     /*расположение блока с переключателями*/
-    margin: 23% 0 0;
+    margin: 15% 0 0;
     text-align: center;
 }
 
@@ -170,7 +172,20 @@ label, a {
     margin-bottom: 5px;
 }
 
-.one {
-    width: 711px;
-    height: 400px;
+.back {
+    padding-top: 5px;
+    margin-left: 80px;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.back:hover {
+    outline: 2px solid wheat;
+    opacity: 0.6;
+}
+
+.back a {
+    color: wheat;
+    font-size: 13px;
+    text-decoration: none;
 }
