@@ -189,3 +189,13 @@ label, a {
     font-size: 13px;
     text-decoration: none;
 }
+
+.section_title {
+    font-size: 22px;
+    padding-left: 10px;
+    color: whitesmoke;
+}
+
+.specificalities {
+    text-indent: 8px;
+}
