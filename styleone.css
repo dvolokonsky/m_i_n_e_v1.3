@@ -84,8 +84,7 @@ article img {
 
 #desktop:checked~#slider {
     /*размер всего слайдера*/
-    width: 675px !important;
-    /*Длинна*/
+    width: 675px !important; /*Длинна*/
 }
 
 /*настройка переключения и положения для правой стрелки*/
