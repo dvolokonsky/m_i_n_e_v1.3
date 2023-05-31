@@ -43,12 +43,13 @@ body {
 
 article img {
     /*размер изображений слайдера*/
-    width: 100% !important;
+    width: 80% !important;
+    height: 80% !important;
 }
 
 #desktop:checked~#slider {
     /*размер всего слайдера*/
-    max-width: 1025px;
+    max-width: 800px;
     /*максимальнная длинна*/
 }
 
@@ -61,7 +62,7 @@ article img {
     background: url('img/next.png') no-repeat;
     /*заливка фона картинкой без повторений*/
     float: right;
-    margin: 0 -84px 0 0;
+    margin: 0 -50px 0 0;
     /*сдвиг вправо*/
     display: block;
     height: 68px;
@@ -84,19 +85,19 @@ label, a {
 }
 
 #switch2:checked~#slides .image {
-    margin-left: -100%;
+    margin-left: -80%;
 }
 
 #switch3:checked~#slides .image {
-    margin-left: -200%;
+    margin-left: -160%;
 }
 
 #switch4:checked~#slides .image {
-    margin-left: -300%;
+    margin-left: -240%;
 }
 
 #switch5:checked~#slides .image {
-    margin-left: -400%;
+    margin-left: -360%;
 }
 
 #controls {
@@ -169,3 +170,7 @@ label, a {
     margin-bottom: 5px;
 }
 
+.one {
+    width: 711px;
+    height: 400px;
+}
