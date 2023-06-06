@@ -66,7 +66,7 @@ body {
 
 #slides .image {
     /*устанавливает общий размер блока с изображениями*/
-    width: 700%;
+    width: 600%;
     line-height: 0;
 
 }
@@ -93,8 +93,7 @@ article img {
 #switch3:checked~#controls label:nth-child(4),
 #switch4:checked~#controls label:nth-child(5),
 #switch5:checked~#controls label:nth-child(6),
-#switch6:checked~#controls label:nth-child(7),
-#switch7:checked~#controls label:nth-child(1) {
+#switch6:checked~#controls label:nth-child(1) {
     background: url('img/next.png') no-repeat;
     /*заливка фона картинкой без повторений*/
     background-size: 60px 60px;
@@ -141,10 +140,6 @@ label, a {
     margin-left: -500%;
 }
 
-#switch7:checked~#slides .image {
-    margin-left: -600%;
-}
-
 #controls {
     /*положение блока всех управляющих элементов*/
     margin: -27% 0 0 0;
@@ -182,8 +177,7 @@ label, a {
 #switch3:checked~#active label:nth-child(3),
 #switch4:checked~#active label:nth-child(4),
 #switch5:checked~#active label:nth-child(5),
-#switch6:checked~#active label:nth-child(6),
-#switch7:checked~#active label:nth-child(7) {
+#switch6:checked~#active label:nth-child(6) {
     background: #18a3dd;
     border-color: #18a3dd !important;
 }
