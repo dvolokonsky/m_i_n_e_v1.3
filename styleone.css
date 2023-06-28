@@ -42,6 +42,10 @@ body {
     height: 380px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main {
     margin: auto;
     border: 3px solid whitesmoke;
@@ -212,12 +216,11 @@ label, a {
     border-radius: 3px;
     color: wheat;
     font-size: 13px;
-    text-decoration: none;
 }
 
 .back:hover {
     outline: 2px solid wheat;
-
+    opacity: 0.6;
 }
 
 .section_title {
@@ -247,6 +250,10 @@ label, a {
     font-size: 18px;
     text-decoration: none;
     line-height: 1.5;
+}
+
+.ul a:hover {
+    opacity: 0.6;
 }
 
 .litematica {

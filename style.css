@@ -17,6 +17,10 @@ body{
 	border-radius: 12px;
 }
 
+a {
+	text-decoration: none;
+}
+
 #slider { /*положение слайдера*/
 	position: relative;
 	margin-top: 3px;
@@ -184,7 +188,7 @@ li{
 	font-size: 20px;
 }
 
-a:hover{
+.a:hover{
 	opacity: 0.6;
 	text-decoration: underline;
 }
@@ -215,5 +219,5 @@ a:hover{
 
 .uf:hover {
 	outline: 2px solid wheat;
-
+	opacity: 0.6;
 }
