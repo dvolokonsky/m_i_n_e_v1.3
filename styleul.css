@@ -98,17 +98,14 @@ li{
     margin-left: 80px;
     padding: 2px;
     border-radius: 3px;
+    color: wheat;
+    font-size: 13px;
+    text-decoration: none;
 }
 
 .back:hover {
     outline: 2px solid wheat;
-    opacity: 0.6;
-}
-
-.back a {
-    color: wheat;
-    font-size: 13px;
-    text-decoration: none;
+    
 }
 
 .main{

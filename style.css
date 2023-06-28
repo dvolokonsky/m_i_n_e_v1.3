@@ -207,15 +207,13 @@ a:hover{
 	margin-left: 75px;
 	border-radius: 3px;
 	padding: 2px;
+	padding-top: 4px;
+	color: wheat;
+	font-size: 13px;
+	text-decoration: none;
 }
 
 .uf:hover {
 	outline: 2px solid wheat;
 
 }
-
-.uf a {
-	color: wheat;
-	font-size: 13px;
-	text-decoration: none;
-}	
