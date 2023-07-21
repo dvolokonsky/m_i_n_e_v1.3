@@ -2,7 +2,7 @@ body {
     padding: 1rem;
     overflow-y: auto;
     direction: ltr;
-    scrollbar-color: whitesmoke;
+    scrollbar-color: black;
     scrollbar-width: thin;
 }
 
@@ -11,13 +11,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background-color: whitesmoke;
+    background-color: black;
     border-radius: 40px;
 }
 
 body::-webkit-scrollbar-thumb {
     border-radius: 40px;
-    background-color: black;
+    background-color: whitesmoke;
     box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
 }
 
