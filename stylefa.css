@@ -45,3 +45,40 @@ a {
     outline: 2px solid wheat;
     opacity: 0.6;
 }
+
+.title {
+    font-size: 22px;
+    margin-left: 15px;
+    color: wheat;
+}
+
+.text {
+    text-indent: 8px;
+    color: whitesmoke;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 147px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid whitesmoke;
+    border-radius: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.farm_title {
+    font-size: 18px;
+    margin-left: 15px;
+    color: wheat;
+}
+
+.pf {
+    align-items: right;
+    margin-right: 15px;
+}
+
+.img {
+    outline: 2px solid whitesmoke;
+    border-radius: 8px;
+}
