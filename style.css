@@ -177,16 +177,13 @@ label, a{ /*при наведении на стрелки или переклю�
 .about{
 	border: 3px solid wheat;
 	border-radius: 8px;
-	padding: 8px !important;
+	padding-left: 8px;
+	padding-right: 8px;
 	margin-top: 23px !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
 	width: 768px !important;
-	height: 142px !important;
-}
-
-.at{
-	margin-top: -12px;
+	height: max-content;
 	text-indent: 8px;
 	font-size: 16px;
 	color: wheat;
