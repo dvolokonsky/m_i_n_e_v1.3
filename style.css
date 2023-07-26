@@ -251,18 +251,6 @@ li{
 	margin-bottom: 5px;
 }
 
-.info {
-	border-radius: 10px;
-	text-decoration: none;
-	position: absolute;
-	bottom: 0px;
-	right: 3px;
-}
-
-.info:hover {
-	opacity: 0.6;
-}
-
 .uf {
 	margin-left: 75px;
 	border-radius: 3px;
