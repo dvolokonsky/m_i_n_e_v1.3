@@ -1,0 +1,94 @@
+body {
+    padding: 1rem;
+    overflow-y: auto;
+    direction: ltr;
+    scrollbar-color: black;
+    scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 40px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+body {
+    font-family: "system-ui";
+    line-height: 1, 4;
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.main {
+    margin: auto;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    width: 852px !important;
+    height: 500px;
+    backdrop-filter: blur(4px);
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 138px !important;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.logo {
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.back {
+    padding-top: 5px;
+    margin-left: 80px;
+    padding: 2px;
+    border-radius: 3px;
+    color: wheat;
+    font-size: 13px;
+}
+
+.back:hover {
+    outline: 2px solid wheat;
+    opacity: 0.6;
+}
+
+.section_title {
+    font-size: 22px;
+    margin-left: 15px;
+    color: wheat;
+}
+
+.specificalities {
+    text-indent: 8px;
+    color: whitesmoke;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 15px;
+}

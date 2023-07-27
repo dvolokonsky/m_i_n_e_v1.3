@@ -226,6 +226,10 @@ li{
 
 .h {
 	text-align: center;
+	color: whitesmoke;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: 5px;
 }
 
 .e {
@@ -245,6 +249,14 @@ li{
 	width: 138px !important;
 	position: absolute;
 	top: 3px;
+	right: 3px;
+}
+
+.info {
+	border-radius: 10px;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0px;
 	right: 3px;
 }
 
