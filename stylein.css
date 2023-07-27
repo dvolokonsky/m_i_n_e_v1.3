@@ -88,11 +88,29 @@ a {
 
 
 .specificalities {
-    padding-top: 10px;
     text-indent: 8px;
     color: whitesmoke;
     text-align: justify;
     margin-left: 20px;
     margin-right: 15px;
-    font-size: 18px;
+    font-size: 16px;
+    width: 660px;
+}
+
+.mail {
+    font-size: 16px;
+    color: wheat;
+}
+
+.mail:hover {
+    opacity: 0.6;
+}
+
+.thanks {
+    position: absolute;
+    bottom: 4px;
+    left: 28px;
+    color: wheat;
+    font-size: 22px;
+    font-weight: bold;
 }
