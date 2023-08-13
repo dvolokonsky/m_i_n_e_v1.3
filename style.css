@@ -207,6 +207,14 @@ label, a{ /*при наведении на стрелки или переклю�
 	margin-top: -10px;
 }
 
+.line {
+	background-color: whitesmoke;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 3px;
+	border-radius: 3px;
+}
+
 li{
 	color: whitesmoke;
 	margin-left: 32px;
@@ -224,34 +232,6 @@ li{
 	text-decoration: underline;
 }
 
-.h {
-	text-align: center;
-	color: whitesmoke;
-	font-size: 20px;
-	text-decoration: none;
-	margin-top: 5px;
-}
-
-.e {
-	text-align: center;
-	color: whitesmoke;
-	font-size: 20px;
-	text-decoration: none;
-	margin-top: 5px;
-}
-
-.e:hover {
-	opacity: 0.6;
-	text-decoration: underline;
-}
-
-.sidebar {
-	width: 138px !important;
-	position: absolute;
-	top: 3px;
-	right: 3px;
-}
-
 .info {
 	border-radius: 10px;
 	text-decoration: none;
@@ -261,6 +241,10 @@ li{
 }
 
 .logo {
+	width: 138px !important;
+	position: absolute;
+	top: 3px;
+	right: 3px;
 	background-color: black;
 	padding: 4px;
 	border-radius: 8px;
