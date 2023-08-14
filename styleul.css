@@ -51,19 +51,6 @@ li{
     text-align: justify;
 }
 
-.pagemap{
-    padding: 9px;
-    margin: 3px;
-    width: max-content;
-    height: max-content;
-    font-size: 22px;
-    color: wheat;
-    text-decoration: none;
-    border-bottom: 3px solid whitesmoke;
-    border-right: 3px solid whitesmoke;
-    border-radius: 3px;
-}
-
 .nt{
     margin-left: 15px;
     margin-right: 15px;
@@ -124,4 +111,41 @@ li{
 
 .important{
     color: red;
+}
+
+.flex {
+    display: flex;
+    margin-top: 38px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.thr {
+    width: 300px;
+}
+
+.a {
+    color: whitesmoke;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -16px;
+}
+
+.a:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+.li {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.n {
+    text-indent: 8px;
+    font-size: 20px;
+    color: whitesmoke;
+    width: 675px;
+    text-align: justify;
 }
