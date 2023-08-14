@@ -108,7 +108,7 @@ li{
 }
 
 .main{
-    padding-top: 20px;
+    
     width: 802px;
     margin-left: 20px;
 }
@@ -116,13 +116,9 @@ li{
 .section_title{
     font-size: 22px;
     padding-left: 10px;
-    color: whitesmoke;
+    color: wheat;
 }
 
 .more_specifically{
     text-indent: 8px;
-}
-
-.important{
-    color: red;
 }
