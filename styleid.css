@@ -1,0 +1,115 @@
+body {
+    padding: 1rem;
+    overflow-y: auto;
+    direction: ltr;
+    scrollbar-color: black;
+    scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 40px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+body {
+    font-family: "system-ui";
+    line-height: 1, 4;
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.frame {
+    margin: auto;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    width: 852px !important;
+    backdrop-filter: blur(4px);
+    position: relative;
+}
+
+.sidebar {
+    width: 138px !important;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.logo {
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.back {
+    padding-top: 5px;
+    margin-left: 80px;
+    padding: 2px;
+    border-radius: 3px;
+    color: wheat;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.back:hover {
+    outline: 2px solid wheat;
+
+}
+
+.main {
+    width: 802px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 4px;
+}
+
+.ab {
+    color: whitesmoke;
+    font-weight: 300;
+    line-height: 0.2;
+    font-size: 14px;
+}
+
+.id {
+    color: wheat;
+    font-size: 12px;
+    word-spacing: 8px;
+}
