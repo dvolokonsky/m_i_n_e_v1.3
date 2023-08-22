@@ -128,4 +128,6 @@ a:hover {
     width: 255px;
     margin-top: -2px;
     margin-bottom: -2px;
+    opacity: 0.4;
+    border-radius: 1px;
 }
