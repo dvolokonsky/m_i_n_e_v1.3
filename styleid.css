@@ -131,3 +131,27 @@ a:hover {
     opacity: 0.4;
     border-radius: 1px;
 }
+
+.div {
+    width: 255px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.liine {
+    background-color: black;
+    width: 1px; 
+    min-height: 95%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+    opacity: 0.4;
+    border-radius: 1px;
+}
+
+.sid {
+    color: wheat;
+    font-size: 11px;
+    word-spacing: 8px;
+}
