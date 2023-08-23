@@ -158,7 +158,6 @@ a:hover {
     font-size: 9px;
     margin-top: 2px;
     padding-bottom: 2.5px;
-    word-spacing: 8px;
     width: 220px;
     text-align-last: justify;
 }
@@ -168,4 +167,21 @@ a:hover {
     font-size: 11px;
     text-align-last: justify;
     width: 220px;
+}
+
+.il {
+    color: wheat;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-size: 11px;
+}
+
+.mline {
+    height: 1px;
+    background-color: black;
+    width: 255px;
+    margin-top: 110px;
+    margin-bottom: -2px;
+    opacity: 0.4;
+    border-radius: 1px;
 }
