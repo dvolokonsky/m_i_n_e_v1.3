@@ -90,6 +90,18 @@ a:hover {
     display: flex;
 }
 
+.liine {
+    background-color: black;
+    width: 1px;
+    min-height: 95%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+    opacity: 0.4;
+    border-radius: 1px;
+}
+
 .flex {
     display: flex;
 }
@@ -141,17 +153,6 @@ a:hover {
     margin-bottom: 14px;
 }
 
-.liine {
-    background-color: black;
-    width: 1px; 
-    min-height: 95%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 12px;
-    margin-right: 12px;
-    opacity: 0.4;
-    border-radius: 1px;
-}
 
 .sid {
     color: wheat;
@@ -178,10 +179,6 @@ a:hover {
 
 .mline {
     height: 1px;
-    background-color: black;
-    width: 255px;
-    margin-top: 110px;
+    margin-top: 127px;
     margin-bottom: -2px;
-    opacity: 0.4;
-    border-radius: 1px;
 }
