@@ -95,7 +95,7 @@ a:hover {
 .liine {
     background-color: black;
     width: 1px;
-    min-height: 95%;
+    min-height: 99%;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 12px;
@@ -128,6 +128,8 @@ a:hover {
     font-weight: 300;
     line-height: 0.2;
     font-size: 14px;
+    width: 220px;
+    height: 43px;
 }
 
 .id {
@@ -153,7 +155,6 @@ a:hover {
     width: 255px;
 }
 
-
 .sid {
     color: wheat;
     font-size: 9px;
@@ -178,5 +179,23 @@ a:hover {
 }
 
 .mline {
-    margin-top: 126px;
+    margin-top: 120px;
+}
+
+.sab {
+    color: whitesmoke;
+    font-weight: 300;
+    line-height: 0.2;
+    font-size: 10px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+.wab {
+    color: whitesmoke;
+    font-weight: 300;
+    line-height: 0.2;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 3px;
 }
