@@ -130,6 +130,7 @@ li{
     text-decoration: none;
     font-weight: bold;
     margin-left: -16px;
+    width: 100px;
 }
 
 .a:hover {
@@ -148,4 +149,11 @@ li{
     color: whitesmoke;
     width: 675px;
     text-align: justify;
+}
+
+.for {
+    color: wheat;
+    font-size: 15px;
+    text-indent: 18px;
+    margin-top: -2px;
 }
