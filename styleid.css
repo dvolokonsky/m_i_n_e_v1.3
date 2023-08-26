@@ -95,7 +95,7 @@ a:hover {
 .liine {
     background-color: black;
     width: 1px;
-    min-height: 99%;
+    min-height: 95%;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 12px;
@@ -162,13 +162,6 @@ a:hover {
     padding-bottom: 2.5px;
     width: 220px;
     text-align-last: justify;
-}
-
-.wid {
-    color: wheat;
-    font-size: 11px;
-    text-align-last: justify;
-    width: 220px;
 }
 
 .il {
