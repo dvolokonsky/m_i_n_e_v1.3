@@ -1,0 +1,194 @@
+body {
+    padding: 1rem;
+    overflow-y: auto;
+    direction: ltr;
+    scrollbar-color: black;
+    scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 40px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+body {
+    font-family: "system-ui";
+    line-height: 1, 4;
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.frame {
+    margin: auto;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    width: 852px !important;
+    backdrop-filter: blur(4px);
+    position: relative;
+}
+
+.sidebar {
+    width: 138px !important;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.logo {
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.back {
+    padding-top: 5px;
+    margin-left: 80px;
+    padding: 2px;
+    border-radius: 3px;
+    color: wheat;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.back:hover {
+    outline: 2px solid wheat;
+
+}
+
+.main {
+    width: 852px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.liine {
+    background-color: black;
+    width: 1px;
+    min-height: 95%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+    opacity: 0.4;
+    border-radius: 1px;
+}
+
+.flex {
+    display: flex;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+.door{
+    width: 15px;
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 12.5px;
+    margin-left: 7.5px;
+}
+
+.ab {
+    color: whitesmoke;
+    font-weight: 300;
+    line-height: 0.2;
+    font-size: 14px;
+    width: 220px;
+    height: 43px;
+}
+
+.id {
+    color: wheat;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-size: 11px;
+    width: 220px;
+    text-align-last: justify;
+}
+
+.line {
+    height: 1px;
+    background-color: black;
+    width: 255px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    opacity: 0.4;
+    border-radius: 1px;
+}
+
+.div {
+    width: 255px;
+}
+
+.sid {
+    color: wheat;
+    font-size: 9px;
+    margin-top: 2px;
+    padding-bottom: 2.5px;
+    width: 220px;
+    text-align-last: justify;
+}
+
+.il {
+    color: wheat;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-size: 11px;
+}
+
+.mline {
+    margin-top: 160px;
+}
+
+.sab {
+    color: whitesmoke;
+    font-weight: 300;
+    line-height: 0.2;
+    font-size: 10px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+.wab {
+    color: whitesmoke;
+    font-weight: 300;
+    line-height: 0.2;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
