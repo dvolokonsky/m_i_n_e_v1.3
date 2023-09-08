@@ -37,13 +37,12 @@ body {
 }
 
 a {
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 16px;
+    color: wheat;
 }
 
 a:hover {
     opacity: 0.6;
+    text-decoration: underline;
 }
 
 .frame {
@@ -85,16 +84,29 @@ a:hover {
 }
 
 .main {
-    width: 812px;
+    width: 808px;
     margin-left: 20px;
 }
 
-.section_title {
+.tit {
     font-size: 22px;
+    color: wheat;
+    padding-left: 10px;
+}
+
+.section_title {
+    font-size: 18px;
     padding-left: 10px;
     color: wheat;
 }
 
 .more_specifically {
     text-indent: 8px;
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.more_specifically img {
+    width: 808px;
 }
