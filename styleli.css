@@ -109,4 +109,15 @@ a:hover {
 
 .more_specifically img {
     width: 808px;
+    border-radius: 5px;
+}
+
+.g{
+    color: darkgrey;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
 }
