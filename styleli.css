@@ -109,7 +109,7 @@ a:hover {
 
 .more_specifically img {
     width: 808px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .g{
@@ -120,4 +120,44 @@ a:hover {
 .red {
     color: red;
     font-weight: bold;
+}
+
+.skip{
+    margin-bottom: 10px;
+}
+
+.border {
+    margin-top: 20px;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    padding: 10px;
+    width: 665px;
+}
+
+.map {
+    color: wheat;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex li {
+    color: whitesmoke;
+}
+
+.flex a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: -10px;
+}
+
+.flex div {
+    margin-right: 12px;
 }
