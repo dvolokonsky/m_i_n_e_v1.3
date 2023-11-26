@@ -1,3 +1,9 @@
+@media screen and (max-width: 767px) { /* Стилі для вузького екрана (менше широкий за висоту) */
+	.main {
+		zoom: 35%;
+	}
+}
+
 body {
 	padding: 1rem;
 	overflow-y: auto;
