@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) { /* Стилі для вузького екрана (менше широкий за висоту) */
+@media screen and (max-width: 767px) {
 	.main {
 		zoom: 35%;
 	}
