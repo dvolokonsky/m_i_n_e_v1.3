@@ -63,8 +63,8 @@ a {
 
 #slider { /*положение слайдера*/
 	position: relative;
-	margin-top: 3px;
-	margin-left: 3px;
+	margin-top: 4px;
+	margin-left: 4px;
 }
 
 #slides article{ /*все изображения справа друг от доруга*/
@@ -80,6 +80,7 @@ a {
 #overflow{ /*сркывает все, что находится за пределами этого блока*/
 	width: 100%;
 	overflow: hidden;
+	border-radius: 12px;
 }
 
 article img{ /*размер изображений слайдера*/
@@ -103,6 +104,7 @@ article img{ /*размер изображений слайдера*/
 	display: block;
 	height: 43px;
 	width: 43px;
+	display: none; /* скривает переключатель, пока не придумаю как его починить */
 }
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
@@ -151,6 +153,7 @@ label, a{ /*при наведении на стрелки или переклю�
 #active{ /*расположение блока с переключателями*/
 	margin: 15% 0 0;
 	text-align: center;
+	display: none; /* скривает другие переключатели, пока не придумаю как их всех починить */
 }
 
 #active label:hover{ /*поведение чекбокса при наведении*/
@@ -249,8 +252,8 @@ li{
 .logo {
 	width: 138px !important;
 	position: absolute;
-	top: 3px;
-	right: 3px;
+	top: 4px;
+	right: 4px;
 	background-color: black;
 	padding: 4px;
 	border-radius: 8px;
@@ -270,4 +273,65 @@ li{
 .uf:hover {
 	outline: 2px solid wheat;
 	opacity: 0.6;
+}
+
+.image {
+	animation-name: slider;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 24s;
+}
+
+@keyframes slider {
+	0% {
+		margin-left: 0;
+	}
+
+	15% {
+		margin-left: 0;
+	}
+
+	20% {
+		margin-left: -100%;
+	}
+
+	35% {
+		margin-left: -100%;
+	}
+
+	40% {
+		margin-left: -200%;
+	}
+
+	55% {
+		margin-left: -200%;
+	}
+
+	60% {
+		margin-left: -300%;
+	}
+
+	75% {
+		margin-left: -300%;
+	}
+
+	80% {
+		margin-left: -400%;
+	}
+	
+	95% {
+		margin-left: -400%;
+	}
+
+	100% {
+		margin-left: 0;
+	}
+}
+
+.image:hover {
+	animation-play-state: paused;
+}
+
+.text {
+	margin-top: 135px;
 }
