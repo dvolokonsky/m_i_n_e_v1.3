@@ -130,6 +130,7 @@ a {
     color: wheat;
     margin-left: 20px;
     font-size: 22px;
+    font-weight: bold;
 }
 
 
@@ -159,4 +160,15 @@ a {
     color: wheat;
     font-size: 22px;
     font-weight: bold;
+}
+
+.a {
+    color: wheat;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.a:hover {
+    opacity: 0.6;
 }
