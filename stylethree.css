@@ -1,6 +1,40 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1110px) {
+
+    /* 1 */
     .main {
-        zoom: 35%;
+        zoom: 80%;
+    }
+}
+
+@media screen and (max-width: 935px) {
+
+    /* 2 */
+    .main {
+        zoom: 70%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    /* 3 */
+    .main {
+        zoom: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* 4 */
+    .main {
+        zoom: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* 5 */
+    .main {
+        zoom: 40%;
     }
 }
 
@@ -215,6 +249,9 @@ label, a {
 }
 
 .logo {
+    position: absolute;
+    top: 4px;
+    right: 4px;
     background-color: black;
     padding: 4px;
     border-radius: 8px;
@@ -222,12 +259,15 @@ label, a {
 }
 
 .back {
+    position: absolute;
+    top: 78px;
+    right: 5px;
     padding-top: 5px;
-    margin-left: 80px;
     padding: 2px;
     border-radius: 3px;
     color: wheat;
     font-size: 13px;
+    text-decoration: none;
 }
 
 .back:hover {

@@ -1,6 +1,30 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1110px) { /* 1 */
 	.main {
-		zoom: 35%;
+		zoom: 80%;
+	}
+}
+
+@media screen and (max-width: 935px) { /* 2 */
+	.main {
+		zoom: 70%;
+	}
+}
+
+@media screen and (max-width: 860px) { /* 3 */
+	.main {
+		zoom: 60%;
+	}
+}
+
+@media screen and (max-width: 600px) { /* 4 */
+	.main {
+		zoom: 50%;
+	}
+}
+
+@media screen and (max-width: 500px) { /* 5 */
+	.main {
+		zoom: 40%;
 	}
 }
 
@@ -256,7 +280,6 @@ li{
 }
 
 .logo {
-	width: 138px !important;
 	position: absolute;
 	top: 4px;
 	right: 4px;
@@ -367,5 +390,33 @@ li{
 	100% {
 		opacity: 1 !important;
 		cursor: pointer;
+	}
+}
+
+.Updates_required {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+
+.forest {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.forest:hover {
+	opacity: 0.6;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 760px) {
+	.Updates_required {
+		opacity: 0;
 	}
 }
