@@ -1,7 +1,7 @@
 @media screen and (max-width: 1110px) {
 
     /* 1 */
-    .main {
+    .frame {
         zoom: 80%;
     }
 }
@@ -9,7 +9,7 @@
 @media screen and (max-width: 935px) {
 
     /* 2 */
-    .main {
+    .frame {
         zoom: 70%;
     }
 }
@@ -17,7 +17,7 @@
 @media screen and (max-width: 860px) {
 
     /* 3 */
-    .main {
+    .frame {
         zoom: 60%;
     }
 }
@@ -25,7 +25,7 @@
 @media screen and (max-width: 600px) {
 
     /* 4 */
-    .main {
+    .frame {
         zoom: 50%;
     }
 }
@@ -33,7 +33,7 @@
 @media screen and (max-width: 500px) {
 
     /* 5 */
-    .main {
+    .frame {
         zoom: 40%;
     }
 }
