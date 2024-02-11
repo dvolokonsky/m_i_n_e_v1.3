@@ -16,15 +16,21 @@
 	}
 }
 
-@media screen and (max-width: 600px) { /* 4 */
+@media screen and (max-width: 650px) { /* 4 */
 	.main {
 		zoom: 50%;
 	}
 }
 
-@media screen and (max-width: 500px) { /* 5 */
+@media screen and (max-width: 550px) { /* 5 */
 	.main {
-		zoom: 40%;
+		zoom: 42%;
+	}
+}
+
+@media screen and (max-width: 450px) { /* 6 */
+	.main {
+		zoom: 35%;
 	}
 }
 
