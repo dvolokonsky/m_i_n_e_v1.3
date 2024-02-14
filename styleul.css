@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 
     /* 4 */
     .frame {
@@ -30,11 +30,19 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
 
     /* 5 */
     .frame {
-        zoom: 40%;
+        zoom: 42%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    /* 6 */
+    .frame {
+        zoom: 35%;
     }
 }
 
