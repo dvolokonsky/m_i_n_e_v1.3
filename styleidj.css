@@ -245,3 +245,14 @@ a:hover {
     padding-top: 2px;
     padding-bottom: 3px;
 }
+
+.absolute {
+    position: absolute;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    color: wheat;
+    top: 17px;
+    right: 153px;
+    line-height: 135%;
+}
