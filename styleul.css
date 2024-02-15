@@ -211,3 +211,58 @@ li{
     text-indent: 18px;
     margin-top: -2px;
 }
+
+.advert {
+    opacity: 0;
+    position: absolute;
+    padding: 15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 3px solid whitesmoke;
+    background-color: rgb(63, 38, 83);
+    animation-name: adver;
+    animation-duration: 128s;
+    animation-iteration-count: 1;
+    z-index: 101;
+}
+
+@keyframes adver {
+    0% {
+        opacity: 0;
+    }
+
+    49% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.ad {
+    font-size: 18px;
+    color: wheat;
+    font-weight: bold;
+}
+
+.adv {
+    font-size: 16px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+.vert {
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+}
