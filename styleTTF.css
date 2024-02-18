@@ -111,6 +111,7 @@ li {
     width: 852px !important;
     backdrop-filter: blur(4px);
     position: relative;
+    height: min-content;
     min-height: 700px;
 }
 
@@ -162,7 +163,7 @@ li {
 }
 
 .section_title {
-    font-size: 22px;
+    font-size: 16px;
     padding-left: 10px;
     padding: 5px;
     color: wheat;
@@ -255,4 +256,71 @@ li {
     font-size: 15px;
     color: whitesmoke;
     font-weight: bold;
+}
+
+.text { /* Плавне розгортання */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    
+}
+
+#toggle:checked~.text { 
+    max-height: min-content;
+    
+}
+
+#toggle:checked~.what {
+    opacity: 0.6;
+
+}
+
+label:hover {
+    opacity: 0.6;
+}
+
+.what {
+    font-size: 16px;
+    color: wheat;
+    font-weight: bold;
+    padding-left: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text {
+    text-indent: 6px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.info {
+    line-height: 0.8;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.info a {
+    text-decoration: underline;
+}
+
+.imp {
+    color: red;
+    padding-top: 2px;
+    line-height: 0.5 !important;
+    font-weight: bold;
+}
+
+.bottom {
+    margin-bottom: 20px;
+    margin-top: 550px;
 }
