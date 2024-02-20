@@ -316,11 +316,31 @@ label:hover {
 .imp {
     color: red;
     padding-top: 2px;
-    line-height: 0.5 !important;
+    line-height: 60%;
     font-weight: bold;
 }
 
 .bottom {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     margin-top: 550px;
+}
+
+.quote {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgba(245, 245, 245, 0.7);
+    border-left: 5px solid wheat;
+    border-radius: 5px;
+    height: max-content;
+}
+
+.margn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 18px;
+    padding-left: 12px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: justify;
+    line-height: 120%;
 }
