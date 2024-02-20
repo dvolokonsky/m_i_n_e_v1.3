@@ -1,7 +1,7 @@
 @media screen and (max-width: 1110px) {
 
     /* 1 */
-    .main {
+    .frame {
         zoom: 80%;
     }
 }
@@ -9,7 +9,7 @@
 @media screen and (max-width: 935px) {
 
     /* 2 */
-    .main {
+    .frame {
         zoom: 70%;
     }
 }
@@ -17,7 +17,7 @@
 @media screen and (max-width: 860px) {
 
     /* 3 */
-    .main {
+    .frame {
         zoom: 60%;
     }
 }
@@ -25,7 +25,7 @@
 @media screen and (max-width: 650px) {
 
     /* 4 */
-    .main {
+    .frame {
         zoom: 50%;
     }
 }
@@ -33,7 +33,7 @@
 @media screen and (max-width: 550px) {
 
     /* 5 */
-    .main {
+    .frame {
         zoom: 42%;
     }
 }
@@ -41,7 +41,7 @@
 @media screen and (max-width: 450px) {
 
     /* 6 */
-    .main {
+    .frame {
         zoom: 35%;
     }
 }
