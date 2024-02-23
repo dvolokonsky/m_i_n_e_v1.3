@@ -218,7 +218,7 @@ label:hover {
 
 .advert {
     opacity: 0;
-    position: fixed;
+    position: absolute;
     padding: 15px;
     left: 0;
     right: 0;
