@@ -181,6 +181,10 @@ a {
     /*расположение блока с переключателями*/
     margin: 15% 0 0;
     text-align: center;
+    opacity: 1;
+	animation-name: hidee;
+	animation-duration: 32s;
+	animation-iteration-count: 1;
 }
 
 #active label:hover {
@@ -317,17 +321,8 @@ a {
         opacity: 1;
     }
 
-    95% {
-        opacity: 0.9;
-    }
-
-    97% {
-        opacity: 0.5;
-
-    }
-
     99.9% {
-        opacity: 0.3;
+        opacity: 0;
         top: 170px;
         left: 680px;
         height: 100px;
@@ -335,10 +330,32 @@ a {
     }
 
     100% {
-        opacity: 0.1;
+        opacity: 0;
         top: 0px;
         left: 680px;
         height: 1px;
         width: 1px;
+    }
+}
+
+@keyframes hidee {
+    0% {
+        opacity: 0;
+        cursor: default;
+    }
+
+    94% {
+        opacity: 0;
+        cursor: default;
+    }
+
+    94% {
+        opacity: 0.1;
+        cursor: default;
+    }
+
+    100% {
+        opacity: 1 !important;
+        cursor: pointer;
     }
 }
