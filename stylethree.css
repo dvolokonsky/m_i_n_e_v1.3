@@ -197,6 +197,10 @@ label, a {
     margin: -27% 0 0 0;
     width: 100%;
     height: 60px;
+    opacity: 1;
+	animation-name: hidee;
+	animation-duration: 28s;
+	animation-iteration-count: 1;
 }
 
 #active label {
@@ -214,6 +218,10 @@ label, a {
     /*расположение блока с переключателями*/
     margin: 15% 0 0;
     text-align: center;
+    opacity: 1;
+	animation-name: hidee;
+	animation-duration: 28s;
+	animation-iteration-count: 1;
 }
 
 #active label:hover {
@@ -319,4 +327,91 @@ label, a {
 .litematica {
     color: whitesmoke;
     text-decoration: underline;
+}
+
+.image {
+    animation-name: slider;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 28s;
+}
+
+@keyframes slider {
+    0% {
+        margin-left: 0;
+    }
+
+    13% {
+        margin-left: 0;
+    }
+
+    17% {
+        margin-left: -100%;
+    }
+
+    30% {
+        margin-left: -100%;
+    }
+
+    34% {
+        margin-left: -200%;
+    }
+
+    47% {
+        margin-left: -200%;
+    }
+
+    51% {
+        margin-left: -300%;
+    }
+
+    63% {
+        margin-left: -300%;
+    }
+
+    67% {
+        margin-left: -400%;
+    }
+
+    80% {
+        margin-left: -400%;
+    }
+
+    84% {
+        margin-left: -500%;
+    }
+
+    99% {
+        margin-left: -500%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+.image:hover {
+    animation-play-state: paused;
+}
+
+@keyframes hidee {
+    0% {
+        opacity: 0;
+        cursor: default;
+    }
+
+    94% {
+        opacity: 0;
+        cursor: default;
+    }
+
+    95% {
+        opacity: 0.1;
+        cursor: default;
+    }
+
+    100% {
+        opacity: 1 !important;
+        cursor: pointer;
+    }
 }
