@@ -1,0 +1,292 @@
+@media screen and (max-width: 1110px) {
+
+    /* 1 */
+    .frame {
+        zoom: 80%;
+    }
+}
+
+@media screen and (max-width: 935px) {
+
+    /* 2 */
+    .frame {
+        zoom: 70%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    /* 3 */
+    .frame {
+        zoom: 60%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    /* 4 */
+    .frame {
+        zoom: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    /* 5 */
+    .frame {
+        zoom: 42%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    /* 6 */
+    .frame {
+        zoom: 35%;
+    }
+}
+
+body {
+    padding: 1rem;
+    overflow-y: auto;
+    direction: ltr;
+    scrollbar-color: black;
+    scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 40px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+body {
+    font-family: "system-ui";
+    line-height: 1, 4;
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.frame {
+    margin: auto;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    width: 852px !important;
+    backdrop-filter: blur(4px);
+    position: relative;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+li {
+    color: whitesmoke;
+    text-align: justify;
+}
+
+label:hover {
+    opacity: 0.6;
+}
+
+.sidebar {
+    width: 138px !important;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.logo {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.back {
+    position: absolute;
+    top: 78px;
+    right: 5px;
+    padding-top: 5px;
+    padding: 2px;
+    border-radius: 3px;
+    color: wheat;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.back:hover {
+    outline: 2px solid wheat;
+
+}
+
+.main {
+    width: 802px;
+    margin-left: 20px;
+}
+
+.section_title {
+    font-size: 22px;
+    padding-left: 10px;
+    padding: 5px;
+    color: wheat;
+}
+
+.more_specifically {
+    text-indent: 8px;
+}
+
+.important {
+    color: red;
+}
+
+.advert {
+    opacity: 0;
+    position: absolute;
+    padding: 15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 3px solid whitesmoke;
+    background-color: rgb(63, 38, 83);
+    animation-name: adver;
+    animation-duration: 256s;
+    animation-iteration-count: 1;
+    z-index: 101;
+}
+
+@keyframes adver {
+    0% {
+        opacity: 0;
+    }
+
+    65% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.ad {
+    font-size: 18px;
+    color: wheat;
+    font-weight: bold;
+}
+
+.adv {
+    font-size: 16px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+.vert {
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+    /* Випадаючі панелі завантаження */
+
+.texton,
+.texttw,
+.textth,
+.textfo,
+.textfi {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out; /* Плавне розгортання */
+}
+
+#oned:checked~.texton,
+#twod:checked~.texttw,
+#threed:checked~.textth,
+#fourd:checked~.textfo,
+#fived:checked~.textfi {
+    max-height: min-content;
+}
+
+#oned:checked~.downon,
+#twod:checked~.downtw,
+#threed:checked~.downth,
+#fourd:checked~.downfo,
+#fived:checked~.downfi {
+    opacity: 0.6;
+}
+
+.downon,
+.downtw,
+.downth,
+.downfo,
+.downfi {
+    font-size: 16px;
+    color: wheat;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.texton li,
+.texttw li,
+.textth li,
+.textfo li,
+.textfi li {
+    list-style-type: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid grey;
+    margin-left: -40px;
+    width: 230px;
+}
+
+.f {
+    display: flex;
+}
+
+.stick {
+    width: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.top {
+    margin-top: 20px;
+}
