@@ -13,6 +13,36 @@
       background-color: rgb(78, 48, 103);
       font-family: 'Comfortaa', cursive;
     }
+    @media screen and (max-width: 1110px) { /* 1 */
+	    body {
+		   zoom: 80%;
+	    }   
+    }
+    @media screen and (max-width: 935px) { /* 2 */
+	    body {
+		    zoom: 70%;
+       }
+    }
+    @media screen and (max-width: 860px) { /* 3 */
+      body {
+   	    zoom: 60%;
+      }
+    }
+    @media screen and (max-width: 650px) { /* 4 */
+      body {
+        zoom: 50%;
+ 	    }
+    }
+    @media screen and (max-width: 550px) { /* 5 */
+      body {
+        zoom: 42%;
+       }
+    }
+    @media screen and (max-width: 450px) { /* 6 */
+      body {
+        zoom: 35%;
+      }
+    }
     .parent{
       display: flex;
       height: 500px;
@@ -91,7 +121,8 @@
   </div>
   <div  class="text">
       <p>Вибач, сторінка ще не готова.</p>
-      <p>Наразі у розробці перебуває розділ The Twilight Forest.</p>
+      <p>Наразі у розробці перебуває розділ <span style="font-weight: bold;">The Twilight Forest</span>.</p>
+      <p style="font-size: 15px;">Також я намагаюся виправити баги, поки що не дуже виходить...</p>
       <a class="back" href="https://dvolokonsky.github.io/m_i_n_e_v1.3/">На головну</a>
   </div>
 </body>
