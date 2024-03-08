@@ -233,13 +233,6 @@ label:hover {
     transition: max-height 0.5s ease-out !important; /* Плавне розгортання */
 }
 
-.textfi {
-    max-height: 0 !important;
-    overflow: hidden !important;
-    transition: max-height 0.5s ease-out !important;
-    /* Плавне розгортання */
-}
-
 #oned:checked~.texton,
 #twod:checked~.texttw,
 #threed:checked~.textth,
@@ -248,18 +241,10 @@ label:hover {
     max-height: min-content !important;
 }
 
-#fived:checked~.textfi {
-    max-height: min-content !important;
-}
-
 #oned:checked~.downon,
 #twod:checked~.downtw,
 #threed:checked~.downth,
 #fourd:checked~.downfo,
-#fived:checked~.downfi {
-    opacity: 0.6 !important;
-}
-
 #fived:checked~.downfi {
     opacity: 0.6 !important;
 }
