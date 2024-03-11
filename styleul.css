@@ -274,3 +274,20 @@ label:hover {
 .important a {
     text-decoration: underline;
 }
+
+.faith {
+    list-style-type: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid grey;
+    margin-left: -28px;
+    width: 120px;
+}
+
+.press {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    margin-top: -20px;
+    color: wheat;
+}
