@@ -1,3 +1,25 @@
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgb(78, 48, 103);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(245, 222, 179, 0.8);
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar-corner {
+    background-color: rgb(78, 48, 103);
+}
+
 @media screen and (max-width: 1110px) {
 
     /* 1 */
