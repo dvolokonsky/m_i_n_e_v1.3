@@ -155,6 +155,7 @@ li {
     padding-left: 10px;
     padding: 5px;
     color: wheat;
+    font-weight: 700;
 }
 
 .more_specifically {
@@ -187,4 +188,34 @@ li {
     font-size: 15px;
     color: whitesmoke;
     font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.small_section_title {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    color: wheat;
+    font-weight: 500;
+}
+
+.just_text {
+    font-size: 16px;
+    padding-left: 10px;
+    padding: 5px;
+    color: whitesmoke; 
+    text-align: justify;
+    text-indent: 5px;
+}
+
+.just_small_text {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    color: whitesmoke;
+    text-align: justify;
+    text-indent: 5px;
 }
