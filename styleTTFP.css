@@ -153,6 +153,7 @@ li {
 .section_title {
     font-size: 16px;
     padding-left: 10px;
+    margin-left: 10px;
     padding: 5px;
     color: wheat;
     font-weight: 700;
@@ -218,4 +219,14 @@ li {
     color: whitesmoke;
     text-align: justify;
     text-indent: 5px;
+}
+
+.horyline {
+    background-color: wheat;
+    min-width: 780px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 3px;
+    border-radius: 3px;
+    margin-top: -10px;
 }
