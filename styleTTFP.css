@@ -269,17 +269,6 @@ label:hover {
     padding-right: 5px;
 }
 
-#Progression_Effects:target,
-#Territory_protection:target,
-#Biome_protection:target,
-#Forest_Bosses:target,
-#Naga:target,
-#Twilight_Lich:target,
-#Swamp_Adventures:target,
-#Mushroom:target,
-#Hydra:target,
-#The_Dark_Forest:target,
-#Phantom_Knights:target,
-#Ur-Ghast:target {
+#The_Dark_Forest:visited {
     text-decoration: underline;
 }
