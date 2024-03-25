@@ -68,6 +68,10 @@ body::-webkit-scrollbar-corner {
     background-color: rgb(78, 48, 103);
 }
 
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
 .one {
     border-radius: 10px;
     width: 675px;
