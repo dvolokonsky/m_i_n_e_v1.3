@@ -230,3 +230,41 @@ li {
     border-radius: 3px;
     margin-top: -10px;
 }
+
+.text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+#toggle:checked~.text {
+    max-height: min-content;
+}
+
+#toggle:checked~.what {
+    opacity: 0.6;
+}
+
+label:hover {
+    opacity: 0.6;
+}
+
+.what {
+    font-size: 16px;
+    color: wheat;
+    font-weight: bold;
+    padding-left: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.text {
+    text-indent: 6px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}

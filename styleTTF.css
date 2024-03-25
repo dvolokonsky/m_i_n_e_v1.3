@@ -196,18 +196,15 @@ li {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
-    
 }
 
 #toggle:checked~.text,
 #download:checked~.options { 
     max-height: min-content;
-    
 }
 
 #toggle:checked~.what {
     opacity: 0.6;
-
 }
 
 #download:checked~.load {
