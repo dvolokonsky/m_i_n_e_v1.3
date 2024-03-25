@@ -269,6 +269,6 @@ label:hover {
     padding-right: 5px;
 }
 
-#The_Dark_Forest:visited {
+.fk:visited~#The_Dark_Forest {
     text-decoration: underline;
 }
