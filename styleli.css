@@ -121,6 +121,7 @@ a:hover {
 .tit {
     font-size: 22px;
     color: wheat;
+    font-weight: bold;
     padding-left: 10px;
 }
 
@@ -154,42 +155,6 @@ a:hover {
 
 .skip{
     margin-bottom: 10px;
-}
-
-.border {
-    margin-top: 20px;
-    border: 1px solid wheat;
-    border-radius: 8px;
-    padding: 10px;
-    width: 665px;
-}
-
-.map {
-    color: wheat;
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 2px;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex li {
-    color: whitesmoke;
-}
-
-.flex a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 11px;
-    font-weight: 500;
-    margin-left: -10px;
-}
-
-.flex div {
-    margin-right: 12px;
 }
 
 .advert {
@@ -245,4 +210,78 @@ a:hover {
     font-size: 16px;
     font-weight: 700;
     color: whitesmoke;
+}
+
+.text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+#toggle:checked~.text {
+    max-height: min-content;
+}
+
+#toggle:checked~.what {
+    opacity: 0.6;
+}
+
+label:hover {
+    opacity: 0.6;
+}
+
+.what {
+    font-size: 16px;
+    color: wheat;
+    font-weight: bold;
+    padding-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.text {
+    text-indent: 6px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    padding-left: 2px;
+    padding-right: 5px;
+    display: flex;
+    width: 650px;
+}
+
+.text ul {
+    padding-left: 15px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: bold;
+    line-height: 175%;
+}
+
+.text a {
+    color: whitesmoke;
+}
+
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 3px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    height: 100px;
+}
+
+.smal {
+    font-size: 16px;
+}
+
+.horyline {
+    background-color: wheat;
+    min-width: 780px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 3px;
+    border-radius: 3px;
 }
