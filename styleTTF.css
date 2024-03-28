@@ -1,46 +1,34 @@
 @media screen and (max-width: 1110px) {
-
-    /* 1 */
     .frame {
         zoom: 80%;
     }
 }
 
 @media screen and (max-width: 935px) {
-
-    /* 2 */
     .frame {
         zoom: 70%;
     }
 }
 
 @media screen and (max-width: 860px) {
-
-    /* 3 */
     .frame {
         zoom: 60%;
     }
 }
 
 @media screen and (max-width: 650px) {
-
-    /* 4 */
     .frame {
         zoom: 50%;
     }
 }
 
 @media screen and (max-width: 550px) {
-
-    /* 5 */
     .frame {
         zoom: 42%;
     }
 }
 
 @media screen and (max-width: 450px) {
-
-    /* 6 */
     .frame {
         zoom: 35%;
     }
@@ -338,34 +326,4 @@ label:hover {
     color: wheat;
     font-weight: bolder;
     font-size: 18px;
-}
-
-.backtoup {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    border: 4px solid wheat;
-    border-radius: 50px;
-    height: 50px;
-    width: 50px;
-    opacity: 0;
-    cursor: default;
-}
-
-.backtoup img {
-    margin: 5px;
-}
-
-.backtoup a{
-    cursor: default;
-}
-
-#toggle:checked~.backtoup:hover,
-#toggle:checked~.backtoup a:hover {
-    opacity: 0.7;
-}
-
-#toggle:checked~.backtoup {
-    opacity: 1;
-    cursor: pointer;
 }
