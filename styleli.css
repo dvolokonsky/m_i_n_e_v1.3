@@ -58,7 +58,6 @@ body::-webkit-scrollbar-corner {
 
 body {
     font-family: 'Comfortaa', cursive;
-    scroll-behavior: smooth;
 }
 
 a {
