@@ -429,9 +429,15 @@ a {
 	text-decoration: none;
 	font-size: 20px;
 	animation-name: shining;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
+}
+
+.b:hover {
+	animation-play-state: paused;
+	opacity: 0.6;
+	text-decoration: underline;
 }
 
 @keyframes shining {
@@ -440,6 +446,6 @@ a {
 	}
 
 	100% {
-		text-shadow: rgba(245, 222, 179, 0.5) 1px 0 10px;
+		text-shadow: rgba(245, 222, 179, 0) 1px 0 10px;
 	}
 }
