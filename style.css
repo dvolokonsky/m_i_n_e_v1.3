@@ -97,23 +97,10 @@ a {
 	color: navy;
 }
 
-.works{
-	font-size: 21px;
-	color: wheat;
-	margin-left: 27px;
-}
-
 .flex{
 	display: flex;
 	margin-top: -10px;
-}
-
-.line {
-	background-color: whitesmoke;
-	margin-left: 10px;
-	margin-right: 10px;
-	height: 3px;
-	border-radius: 3px;
+	margin-bottom: 22px;
 }
 
 li{
@@ -141,6 +128,10 @@ li{
 	right: 3px;
 }
 
+.info:hover {
+	opacity: 0.6;
+}
+
 .logo {
 	position: absolute;
 	top: 4px;
@@ -151,47 +142,23 @@ li{
 	margin-bottom: 5px;
 }
 
-.uf {
-	margin-left: 75px;
-	border-radius: 3px;
-	padding: 2px;
-	padding-top: 4px;
-	color: wheat;
-	font-size: 13px;
-	text-decoration: none;
-}
-
-.uf:hover {
-	outline: 2px solid wheat;
-	opacity: 0.6;
-}
-
 .Updates_required {
 	position: absolute;
 	top: 0px;
 	left: 10px;
 }
 
-.forest {
-	margin-top: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	color: whitesmoke;
-	text-decoration: none;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-.forest:hover {
-	opacity: 0.6;
-	text-decoration: underline;
-}
-
 @media screen and (max-width: 760px) {
 	.Updates_required {
 		opacity: 0;
 	}
+}
+
+.sections {
+	font-size: 21px;
+	font-weight: bolder;
+	color: wheat;
+	margin-left: 27px;
 }
 
 .one {
@@ -453,5 +420,26 @@ a {
 	100% {
 		opacity: 1 !important;
 		cursor: pointer;
+	}
+}
+
+.b {
+	margin-left: -16px;
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 20px;
+	animation-name: shining;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes shining {
+	0% {
+		text-shadow:  rgb(245, 222, 179, 1) 2px 0 10px;
+	}
+
+	100% {
+		text-shadow: rgba(245, 222, 179, 0.5) 1px 0 10px;
 	}
 }
