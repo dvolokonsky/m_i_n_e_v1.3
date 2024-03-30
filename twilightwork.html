@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="ua">
-
 </html>
-
 <head>
     <title>Сторінка ще не готова</title>
     <meta charset="utf-8">
@@ -16,48 +14,40 @@
             background-color: rgb(78, 48, 103);
             font-family: 'Comfortaa', cursive;
         }
-        
         @media screen and (max-width: 1110px) { /* 1 */
 	        body {
 		    zoom: 80%;
 	        }   
         }
-
         @media screen and (max-width: 935px) { /* 2 */
 	        body {
 		        zoom: 70%;
     	    }
         }
-
         @media screen and (max-width: 860px) { /* 3 */
 	        body {
 	    	    zoom: 60%;
 	        }
         }
-
         @media screen and (max-width: 650px) { /* 4 */
 	        body {
 		        zoom: 50%;
     	    }
         }
-
         @media screen and (max-width: 550px) { /* 5 */
 	        body {
 		        zoom: 42%;
 	        }
-            }
-
+        }
         @media screen and (max-width: 450px) { /* 6 */
 	        body {
 		        zoom: 35%;
 	        }
         }
-
         .parent {
             display: flex;
             height: 500px;
         }
-
         .gear {
             position: relative;
             width: 200px;
@@ -70,7 +60,6 @@
             animation-iteration-count: infinite;
             animation-timing-function: linear;
         }
-
         .gear .center {
             position: absolute;
             top: 50px;
@@ -81,7 +70,6 @@
             background: rgb(78, 48, 103);
             border-radius: 50%;
         }
-
         .tooth {
             position: absolute;
             top: -25px;
@@ -92,19 +80,15 @@
             background: gray;
             border-radius: 15px;
         }
-
         .tooth:nth-child(2) {
             transform: rotate(45deg);
         }
-
         .tooth:nth-child(3) {
             transform: rotate(90deg);
         }
-
         .tooth:nth-child(4) {
             transform: rotate(135deg);
         }
-
         @keyframes spin {
             from {
                 transform: rotate(0deg);
@@ -114,27 +98,22 @@
                 transform: rotate(360deg);
             }
         }
-
         .text {
             text-align: center;
             font-size: 18px;
             margin-top: 10px;
             color: wheat;
         }
-
         .back {
             text-decoration: none;
             color: wheat;
             font-weight: bold;
         }
-
         .back:hover {
             opacity: 0.6;
-            text-decoration: underline;
         }
     </style>
 </head>
-
 <body>
     <div class="parent">
         <div class="gear">
@@ -152,5 +131,4 @@
         <a class="back" href="https://dvolokonsky.github.io/m_i_n_e_v1.3/">На головну</a>
     </div>
 </body>
-
 </html>
