@@ -263,14 +263,14 @@ label:hover {
     padding-left: 15px;
     text-align: left;
     margin-left: 0px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 175%;
 }
 
 .text ul ul {
     text-align: left;
     margin-left: 10px;
-    font-weight: bold;
+    font-weight: 550;
     line-height: 150%;
 }
 
@@ -280,7 +280,7 @@ label:hover {
     width: 3px;
     border-radius: 5px;
     background-color: whitesmoke;
-    height: 220px;
+    height: 215px;
 }
 
 .backtoup {
