@@ -1,35 +1,41 @@
 @media screen and (max-width: 1110px) {
-    .frame {
+    .frame,
+    .backtoup {
         zoom: 80%;
     }
 }
 
 @media screen and (max-width: 935px) {
-    .frame {
+    .frame,
+    .backtoup {
         zoom: 70%;
     }
 }
 
 @media screen and (max-width: 860px) {
-    .frame {
+    .frame,
+    .backtoup {
         zoom: 60%;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .frame {
+    .frame,
+    .backtoup {
         zoom: 50%;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .frame {
+    .frame,
+    .backtoup {
         zoom: 42%;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .frame {
+    .frame,
+    .backtoup {
         zoom: 35%;
     }
 }
@@ -294,6 +300,7 @@ label:hover {
     border-radius: 50px;
     height: 50px;
     width: 50px;
+    display: none;
 }
 
 .backtoup img {
