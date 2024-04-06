@@ -1,35 +1,41 @@
 @media screen and (max-width: 1110px) {
-    .frame {
+    .frame,
+    .advert {
         zoom: 80%;
     }
 }
 
 @media screen and (max-width: 935px) {
-    .frame {
+    .frame,
+    .advert {
         zoom: 70%;
     }
 }
 
 @media screen and (max-width: 860px) {
-    .frame {
+    .frame,
+    .advert {
         zoom: 60%;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .frame {
+    .frame,
+    .advert {
         zoom: 50%;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .frame {
+    .frame,
+    .advert {
         zoom: 42%;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .frame {
+    .frame,
+    .advert {
         zoom: 35%;
     }
 }
