@@ -205,15 +205,14 @@ a {
 .backtoup {
     position: fixed;
     bottom: 20px;
-    right: 20px;
-    border: 4px solid wheat;
+    right: 15px;
     border-radius: 50px;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
 }
 
 .backtoup img {
-    margin: 5px;
+    rotate: 270deg;
 }
 
 .backtoup:hover,
