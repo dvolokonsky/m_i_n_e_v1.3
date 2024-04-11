@@ -435,7 +435,6 @@ a {
 }
 
 .b:hover {
-	animation-play-state: paused;
 	opacity: 0.6;
 	text-decoration: underline;
 }
