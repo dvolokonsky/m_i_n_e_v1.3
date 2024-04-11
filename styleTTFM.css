@@ -1,0 +1,302 @@
+@media screen and (max-width: 1110px) {
+
+    .frame {
+        zoom: 80%;
+    }
+}
+
+@media screen and (max-width: 935px) {
+
+    .frame {
+        zoom: 70%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    .frame {
+        zoom: 60%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .frame {
+        zoom: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .frame {
+        zoom: 42%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .frame {
+        zoom: 35%;
+    }
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgb(78, 48, 103);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(245, 222, 179, 0.8);
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar-corner {
+    background-color: rgb(78, 48, 103);
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.frame {
+    display: block;
+    margin: auto;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    width: 852px !important;
+    backdrop-filter: blur(4px);
+    position: relative;
+    height: min-content;
+    min-height: 700px;
+}
+
+.sidebar {
+    width: 138px !important;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.logo {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.back {
+    position: absolute;
+    top: 78px;
+    right: 5px;
+    padding-top: 5px;
+    padding: 2px;
+    border-radius: 3px;
+    color: wheat;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.back:hover {
+    outline: 2px solid wheat;
+
+}
+
+.main {
+    width: 802px;
+    margin-left: 20px;
+}
+
+.page_title {
+    font-size: 25px;
+    padding-left: 10px;
+    padding: 5px;
+    color: wheat;
+    font-weight: bolder;
+}
+
+.section_title {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 25px !important;
+    padding: 5px;
+    color: wheat;
+    font-weight: 750;
+}
+
+.small_section_title {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    padding: 5px;
+    color: wheat;
+    font-weight: 500;
+}
+
+.just_text {
+    font-size: 16px;
+    padding-left: 10px;
+    padding: 5px;
+    color: whitesmoke;
+    text-align: justify;
+    text-indent: 5px;
+}
+
+.advert {
+    opacity: 0;
+    position: fixed;
+    padding: 15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 3px solid whitesmoke;
+    background-color: rgb(63, 38, 83);
+    animation-name: adver;
+    animation-duration: 512s;
+    animation-iteration-count: 1;
+    padding-left: 30px;
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+}
+
+@keyframes adver {
+    0% {
+        opacity: 0;
+        width: 5px;
+        height: 5px;
+        overflow: hidden;
+    }
+
+    65% {
+        opacity: 0;
+        width: 5px;
+        height: 5px;
+        overflow: hidden;
+    }
+
+    66% {
+        opacity: 1;
+        width: 100%;
+        height: min-content;
+        overflow: visible;
+    }
+
+    99% {
+        opacity: 1;
+        width: 100%;
+        height: min-content;
+        overflow: visible;
+    }
+
+    100% {
+        opacity: 0;
+        width: 5px;
+        height: 5px;
+        overflow: hidden;
+    }
+}
+
+.ad {
+    font-size: 18px;
+    color: wheat;
+    font-weight: bold;
+}
+
+.adv {
+    font-size: 16px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+.vert {
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.list {
+    display: flex;
+}
+
+.the {
+    margin-top: -25px;
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.info {
+    line-height: 0.8;
+    color: whitesmoke;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.info a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.list div {
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.list p {
+    color: wheat;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.list ul,
+.list li,
+.list a {
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1455px) {
+    .notice {
+        opacity: 0;
+    }
+}
+
+.notice {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 250px;
+    color: wheat;
+    text-align: justify;
+    font-weight: 500;
+    border: 3px wheat solid;
+    border-radius: 10px;
+    padding: 10px;
+}
