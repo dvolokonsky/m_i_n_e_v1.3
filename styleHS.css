@@ -74,12 +74,6 @@ a {
     text-decoration: none;
 }
 
-.img {
-    border-radius: 10px;
-    margin-top: 5px;
-    margin-left: 5px;
-}
-
 .sidebar {
     width: 138px !important;
     position: absolute;
@@ -126,101 +120,62 @@ a {
     text-align: justify;
     margin-left: 20px;
     margin-right: 15px;
+    width: 680px;
 }
 
-.line {
-    margin-left: 15px;
-    background-color: whitesmoke;
-    padding: 1.5px;
-    width: 816px;
-    border-radius: 3px;
+.flex {
+    display: flex;
+    width: 680px;
 }
 
-.ul {
+.flex img {
+    margin-left: auto;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: -5px;
+}
+
+.flex ul {
     color: whitesmoke;
-    font-size: 18px;
-    text-decoration: none;
+    font-size: 16px;
     line-height: 1.5;
 }
 
-.ul a:hover {
-    opacity: 0.6;
-}
-
-.litematica {
-    color: whitesmoke;
-    text-decoration: underline;
-}
-
-.advert {
-    opacity: 0;
-    position: fixed;
-    padding: 15px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-top: 3px solid whitesmoke;
-    background-color: rgb(63, 38, 83);
-    animation-name: adver;
-    animation-duration: 512s;
-    animation-iteration-count: 1;
-    padding-left: 30px;
-    width: 5px;
-    height: 5px;
-    overflow: hidden;
-}
-
-@keyframes adver {
-    0% {
-        opacity: 0;
-        width: 5px;
-        height: 5px;
-        overflow: hidden;
-    }
-
-    65% {
-        opacity: 0;
-        width: 5px;
-        height: 5px;
-        overflow: hidden;
-    }
-
-    66% {
-        opacity: 1;
-        width: 100%;
-        height: min-content;
-        overflow: visible;
-    }
-
-    99% {
-        opacity: 1;
-        width: 100%;
-        height: min-content;
-        overflow: visible;
-    }
-
-    100% {
-        opacity: 0;
-        width: 5px;
-        height: 5px;
-        overflow: hidden;
-    }
-}
-
-.ad {
-    font-size: 18px;
-    color: wheat;
+.flex li span {
     font-weight: bold;
 }
 
-.adv {
-    font-size: 16px;
-    font-weight: 800;
+.flex li p {
     color: whitesmoke;
+    font-size: 14px;
+    margin-left: 5px;
+    line-height: 0.3;
 }
 
-.vert {
-    font-size: 16px;
-    font-weight: 700;
+.specifica {
+    text-indent: 8px;
     color: whitesmoke;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.small_section_title {
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    padding: 5px;
+    color: wheat;
+    font-weight: 800;
+}
+
+.horyline {
+    background-color: wheat;
+    min-width: 780px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
 }

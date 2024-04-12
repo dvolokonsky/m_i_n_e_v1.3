@@ -280,6 +280,10 @@ a:hover {
     text-decoration: none;
 }
 
+.list a {
+    opacity: 0.6;
+}
+
 @media screen and (max-width: 1455px) {
     .notice {
         opacity: 0;
@@ -299,4 +303,12 @@ a:hover {
     border: 3px wheat solid;
     border-radius: 10px;
     padding: 10px;
+}
+
+.ready {
+    opacity: 1 !important;
+}
+
+.ready:hover {
+    opacity: 0.6 !important;
 }
