@@ -356,6 +356,14 @@ label, a {
     animation-play-state: paused;
 }
 
+.image:hover~#active {
+    animation-play-state: paused;
+}
+
+.image:hover~#controls {
+    animation-play-state: paused;
+}
+
 @keyframes hidee {
     0% {
         opacity: 0;
