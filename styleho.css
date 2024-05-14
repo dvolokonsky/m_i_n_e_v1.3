@@ -1,35 +1,41 @@
 @media screen and (max-width: 1110px) {
-    .main {
+    .frame,
+    .backtoup {
         zoom: 80%;
     }
 }
 
 @media screen and (max-width: 935px) {
-    .main {
+    .frame,
+    .backtoup {
         zoom: 70%;
     }
 }
 
 @media screen and (max-width: 860px) {
-    .main {
+    .frame,
+    .backtoup {
         zoom: 60%;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .main {
+    .frame,
+    .backtoup {
         zoom: 50%;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .main {
+    .frame,
+    .backtoup {
         zoom: 42%;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .main {
+    .frame,
+    .backtoup {
         zoom: 35%;
     }
 }
