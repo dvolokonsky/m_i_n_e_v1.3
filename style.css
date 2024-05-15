@@ -151,6 +151,8 @@ li{
 @media screen and (max-width: 760px) {
 	.Updates_required {
 		opacity: 0;
+		width: 1px !important;
+		height: 1px !important;
 	}
 }
 
