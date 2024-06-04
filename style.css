@@ -1,3 +1,9 @@
+@media screen and (min-width: 1280px) { /* 0 */
+	.main {
+		zoom: 120%;
+	}
+}
+
 @media screen and (max-width: 1110px) { /* 1 */
 	.main {
 		zoom: 80%;

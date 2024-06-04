@@ -1,3 +1,9 @@
+@media screen and (min-width: 1280px) {
+    .main {
+        zoom: 120%;
+    }
+}
+
 @media screen and (max-width: 1110px) {
     .frame,
     .advert {
