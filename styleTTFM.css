@@ -285,3 +285,39 @@ a:hover {
     line-height: 1.4;
     text-decoration: none;
 }
+
+#list a {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1615px) {
+    .notice {
+        opacity: 0 !important;
+        width: 1px !important;
+        height: 1px !important;
+        overflow: hidden !important;
+    }
+}
+
+.notice {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 250px;
+    color: wheat;
+    text-align: justify;
+    font-weight: 500;
+    border: 3px wheat solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ready {
+    opacity: 1 !important;
+}
+
+.ready:hover {
+    opacity: 0.6 !important;
+}
