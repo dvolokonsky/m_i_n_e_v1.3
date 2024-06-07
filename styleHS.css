@@ -185,8 +185,6 @@ a {
     margin-top: 10px;
 }
 
-/*
-
 .fireflies_box {
     position: absolute;
     bottom: 0px;
@@ -205,35 +203,139 @@ a {
     bottom: -20px;
     left: 40px;
     background-color: wheat;
-    animation-name: shining;
-	animation-duration: 7s;
-	animation-direction: alternate;
+    animation-name: moving;
+	animation-duration: 3s;
+	animation-direction: normal;
+    animation-delay: 6c;
 	animation-iteration-count: infinite;
 }
 
-@keyframes shining {
-    0% {
-        box-shadow: rgb(245, 222, 179, 1) 2px 0 10px;
+@keyframes moving {
+    1% {
         bottom: -20px;
+        left: 40px;
+        box-shadow: rgb(245, 222, 179, 1) 2px 0 10px;
+        opacity: 1;
+    }
+
+    12% {
+        bottom: 20px;
         left: 40px;
     }
 
     15% {
-        box-shadow: rgb(245, 222, 179, 0.8) 2px 0 10px;
         bottom: 20px;
-        left: 15px;
+        left: 30px;
     }
 
-    25% {
-        box-shadow: rgb(245, 222, 179, 0.65) 2px 0 10px;
-        bottom: 60px;
-        left: 35px;
+    18% {
+        bottom: 30px;
+        left: 30px;
+    }
+
+    21% {
+        bottom: 30px;
+        left: 20px;
+    }
+
+    24% {
+        bottom: 40px;
+        left: 30px;
+    }
+
+    27% {
+        bottom: 40px;
+        left: 20px;
+    }
+
+    30% {
+        bottom: 50px;
+        left: 20px;
+    }
+
+    33% {
+        bottom: 50px;
+        left: 10px;
+    }
+
+    42% {
+        bottom: 80px;
+        left: 20px;
+        box-shadow: rgba(245, 222, 179, 0.3) 1px 0 10px;
+        opacity: 0.4;
+    }
+
+    45% {
+        bottom: 80px;
+        left: 30px;
+    }
+
+    51% {
+        bottom: 100px;
+        left: 30px;
+    }
+
+    54% {
+        bottom: 100px;
+        left: 40px;
+    }
+
+    57% {
+        bottom: 110px;
+        left: 40px;
+    }
+
+    60% {
+        bottom: 110px;
+        left: 50px;
+        box-shadow: rgb(245, 222, 179, 1) 2px 0 10px;
+        opacity: 1;
+    }
+
+    72% {
+        bottom: 150px;
+        left: 50px;
+    }
+
+    75% {
+        bottom: 150px;
+        left: 40px;
+    }
+
+    78% {
+        bottom: 160px;
+        left: 40px;
+    }
+
+    81% {
+        bottom: 160px;
+        left: 30px;
+    }
+
+    87% {
+        bottom: 180px;
+        left: 30px;
+    }
+
+    90% {
+        bottom: 180px;
+        left: 40px;
+    }
+
+    93% {
+        bottom: 190px;
+        left: 40px;
+    }
+
+    96% {
+        bottom: 190px;
+        left: 50px;
     }
 
     100% {
+        bottom: 207px;
+        left: 50px;
         box-shadow: rgba(245, 222, 179, 0) 1px 0 10px;
+        opacity: 0;
     }
 }
-
-*/
-
