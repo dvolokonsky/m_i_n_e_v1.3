@@ -188,11 +188,10 @@ a {
 .fireflies_box {
     position: absolute;
     bottom: 0px;
-    left: 50px;
+    left: 25px;
     height: 400px;
     width: 250px;
     overflow: hidden;
-    border: 1px black solid;
 }
 
 .first_f {
@@ -214,128 +213,191 @@ a {
     1% {
         bottom: -20px;
         left: 40px;
-        box-shadow: rgb(245, 222, 179, 1) 2px 0 10px;
-        opacity: 1;
     }
 
-    12% {
+    12% { /* 0 */
         bottom: 20px;
         left: 40px;
     }
 
-    15% {
-        bottom: 20px;
-        left: 30px;
+    14% {
+        bottom: 25px;
+        left: 38.5px;
     }
 
-    18% {
+    16% {
+        bottom: 28.5px;
+        left: 35px;       
+    }
+
+    18% { /* 1 */
         bottom: 30px;
         left: 30px;
     }
 
-    21% {
-        bottom: 30px;
-        left: 20px;
+    20% {
+        bottom: 31.5px;
+        left: 25px;
     }
 
-    24% {
+    22% {
+        bottom: 35px;
+        left: 21.5px;
+    }
+
+    24% { /* 2 */
         bottom: 40px;
-        left: 30px;
-    }
-
-    27% {
-        bottom: 40px;
         left: 20px;
     }
 
-    30% {
-        bottom: 50px;
-        left: 20px;
+    26% {
+        bottom: 45px;
+        left: 18.5px;
     }
 
-    33% {
+    28% {
+        bottom: 48.5px;
+        left: 15px;
+    }
+
+    30% { /* 3 */
         bottom: 50px;
         left: 10px;
     }
 
-    42% {
-        bottom: 80px;
-        left: 20px;
+    36% { /* 4 */
+        bottom: 70px;
+        left: 10px;
         box-shadow: rgba(245, 222, 179, 0.3) 1px 0 10px;
         opacity: 0.4;
     }
 
-    45% {
+    38% {
+        bottom: 75px;
+        left: 11.5px;
+    }
+
+    40% {
+        bottom: 78.5px;
+        left: 15px;
+    }
+
+    42% { /* 5 */
         bottom: 80px;
-        left: 30px;
+        left: 20px;
     }
 
-    51% {
+    48% { /* 6 */
         bottom: 100px;
-        left: 30px;
+        left: 20px;
     }
 
-    54% {
-        bottom: 100px;
-        left: 40px;
+    50% {
+        bottom: 105px;
+        left: 21.5px;
     }
 
-    57% {
+    52% {
+        bottom: 108.5px;
+        left: 25px;
+    }
+
+    54% { /* 7 */
         bottom: 110px;
-        left: 40px;
+        left: 30px;
+    }
+
+    56% {
+        bottom: 111.5px;
+        left: 35px;
+    }
+
+    58% {
+        bottom: 115px;
+        left: 38.5px;
     }
 
     60% {
-        bottom: 110px;
-        left: 50px;
+        bottom: 120px;
+        left: 40px;
+    }
+
+    66% { /* 8 */
+        bottom: 140px;
+        left: 40px;
         box-shadow: rgb(245, 222, 179, 1) 2px 0 10px;
         opacity: 1;
     }
 
-    72% {
+    72% { /* 9 */
+        bottom: 145px;
+        left: 38.5px;
+    }
+
+    74% {
+        bottom: 148.5px;
+        left: 35px;
+    }
+
+    76% {
         bottom: 150px;
-        left: 50px;
-    }
-
-    75% {
-        bottom: 150px;
-        left: 40px;
-    }
-
-    78% {
-        bottom: 160px;
-        left: 40px;
-    }
-
-    81% {
-        bottom: 160px;
         left: 30px;
     }
 
-    87% {
-        bottom: 180px;
-        left: 30px;
+    78% { /* 10*/
+        bottom: 151.5px;
+        left: 25px;
+    }
+
+    80% {
+        border-bottom: 155px;
+        left: 21.5px;
+    }
+
+    82% {
+        bottom: 160px;
+        left: 20px;
+    }
+
+    84% { /* 11 */
+        bottom: 170px;
+        left: 20px;
+    }
+
+    86% { /* 12 */
+        bottom: 175px;
+        left: 21.5px;
+    }
+
+    88% {
+        bottom: 178.5px;
+        left: 25px;
     }
 
     90% {
         bottom: 180px;
-        left: 40px;
+        left: 30px;
     }
 
-    93% {
-        bottom: 190px;
-        left: 40px;
+    92% { /* 13 */
+        bottom: 181.5px;
+        left: 35px;
+    }
+
+    94% {
+        bottom: 185px;
+        left: 38.5px;
     }
 
     96% {
         bottom: 190px;
-        left: 50px;
+        left: 40px;
     }
 
-    100% {
-        bottom: 207px;
-        left: 50px;
+    100% { /* 14 */
+        bottom: 210px;
+        left: 40px;
         box-shadow: rgba(245, 222, 179, 0) 1px 0 10px;
-        opacity: 0;
+        opacity: 0.2;
     }
 }
