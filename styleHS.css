@@ -203,7 +203,7 @@ a {
     left: 40px;
     background-color: wheat;
     animation-name: moving;
-	animation-duration: 3s;
+	animation-duration: 6s;
 	animation-direction: normal;
     animation-delay: 6c;
 	animation-iteration-count: infinite;
@@ -215,189 +215,218 @@ a {
         left: 40px;
     }
 
-    12% { /* 0 */
+    6% {
+        /* 0 */
         bottom: 20px;
         left: 40px;
     }
 
-    14% {
+    7% {
         bottom: 25px;
         left: 38.5px;
     }
 
-    16% {
+    8% {
         bottom: 28.5px;
-        left: 35px;       
+        left: 35px;
     }
 
-    18% { /* 1 */
+    9% {
+        /* 1 */
         bottom: 30px;
         left: 30px;
     }
 
-    20% {
+    10% {
         bottom: 31.5px;
         left: 25px;
     }
 
-    22% {
+    11% {
         bottom: 35px;
         left: 21.5px;
     }
 
-    24% { /* 2 */
+    12% {
+        /* 2 */
         bottom: 40px;
         left: 20px;
     }
 
-    26% {
+    13% {
         bottom: 45px;
         left: 18.5px;
     }
 
-    28% {
+    14% {
         bottom: 48.5px;
         left: 15px;
     }
 
-    30% { /* 3 */
+    15% {
+        /* 3 */
         bottom: 50px;
         left: 10px;
     }
 
-    36% { /* 4 */
+    18% {
+        /* 4 */
         bottom: 70px;
         left: 10px;
         box-shadow: rgba(245, 222, 179, 0.3) 1px 0 10px;
         opacity: 0.4;
     }
 
-    38% {
+    19% {
         bottom: 75px;
         left: 11.5px;
     }
 
-    40% {
+    20% {
         bottom: 78.5px;
         left: 15px;
     }
 
-    42% { /* 5 */
+    21% {
+        /* 5 */
         bottom: 80px;
         left: 20px;
     }
 
-    48% { /* 6 */
+    24% {
+        /* 6 */
         bottom: 100px;
         left: 20px;
     }
 
-    50% {
+    25% {
         bottom: 105px;
         left: 21.5px;
     }
 
-    52% {
+    26% {
         bottom: 108.5px;
         left: 25px;
     }
 
-    54% { /* 7 */
+    27% {
+        /* 7 */
         bottom: 110px;
         left: 30px;
     }
 
-    56% {
+    28% {
         bottom: 111.5px;
         left: 35px;
     }
 
-    58% {
+    29% {
         bottom: 115px;
         left: 38.5px;
     }
 
-    60% {
+    30% {
         bottom: 120px;
         left: 40px;
     }
 
-    66% { /* 8 */
+    33% {
+        /* 8 */
         bottom: 140px;
         left: 40px;
         box-shadow: rgb(245, 222, 179, 1) 2px 0 10px;
         opacity: 1;
     }
 
-    72% { /* 9 */
+    36% {
+        /* 9 */
         bottom: 145px;
         left: 38.5px;
     }
 
-    74% {
+    37% {
         bottom: 148.5px;
         left: 35px;
     }
 
-    76% {
+    38% {
         bottom: 150px;
         left: 30px;
     }
 
-    78% { /* 10*/
+    39% {
+        /* 10 */
         bottom: 151.5px;
         left: 25px;
     }
 
-    80% {
-        border-bottom: 155px;
+    40% {
+        bottom: 155px;
         left: 21.5px;
     }
 
-    82% {
+    41% {
         bottom: 160px;
         left: 20px;
     }
 
-    84% { /* 11 */
+    42% {
+        /* 11 */
         bottom: 170px;
         left: 20px;
     }
 
-    86% { /* 12 */
+    43% {
+        /* 12 */
         bottom: 175px;
         left: 21.5px;
     }
 
-    88% {
+    44% {
         bottom: 178.5px;
         left: 25px;
     }
 
-    90% {
+    45% {
         bottom: 180px;
         left: 30px;
     }
 
-    92% { /* 13 */
+    46% {
+        /* 13 */
         bottom: 181.5px;
         left: 35px;
     }
 
-    94% {
+    47% {
         bottom: 185px;
         left: 38.5px;
     }
 
-    96% {
+    48% {
         bottom: 190px;
         left: 40px;
     }
 
-    100% { /* 14 */
+    50% {
+        /* 14 */
         bottom: 210px;
         left: 40px;
         box-shadow: rgba(245, 222, 179, 0) 1px 0 10px;
-        opacity: 0.2;
+        opacity: 0;
+    }
+
+    50.1% {
+        bottom: 210px;
+        left: 40px;
+        box-shadow: none;
+        opacity: 0; 
+    }
+
+    100% {
+        bottom: 210px;
+        left: 40px;
+        box-shadow: none;
+        opacity: 0;
     }
 }
