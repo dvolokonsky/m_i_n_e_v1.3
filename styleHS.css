@@ -190,8 +190,9 @@ a {
     bottom: 0px;
     left: 25px;
     height: 400px;
-    width: 250px;
+    width: 300px;
     overflow: hidden;
+    border: solid 1px black;
 }
 
 .first_f {
@@ -199,19 +200,68 @@ a {
     width: 7px;
     border-radius: 7px;
     position: absolute;
-    bottom: -20px;
-    left: 40px;
+    bottom: -30px;
+    margin-left: 15px;
     background-color: wheat;
     animation-name: moving;
 	animation-duration: 6s;
 	animation-direction: normal;
-    animation-delay: 6c;
+    animation-delay: 6s;
 	animation-iteration-count: infinite;
+    zoom: 90%;
+}
+
+.second_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 75px;
+    background-color: wheat;
+    animation-name: moving;
+	animation-duration: 6s;
+	animation-direction: normal;
+    animation-delay: 6.15s;
+	animation-iteration-count: infinite;
+    zoom: 75%
+}
+
+.third_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 15px;
+    background-color: wheat;
+    animation-name: moving;
+	animation-duration: 6s;
+	animation-direction: normal;
+    animation-delay: 6.2s;
+	animation-iteration-count: infinite;
+    zoom: 50%
+}
+
+.fourth_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 25px;
+    background-color: wheat;
+    animation-name: moving;
+	animation-duration: 6s;
+	animation-direction: normal;
+    animation-delay: 6.4s;
+	animation-iteration-count: infinite;
+    zoom: 80%;
 }
 
 @keyframes moving {
     1% {
-        bottom: -20px;
+        bottom: -30px;
         left: 40px;
     }
 
