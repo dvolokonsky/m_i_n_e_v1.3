@@ -186,13 +186,12 @@ a {
 }
 
 .fireflies_box {
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom: -20px;
     left: 25px;
     height: 400px;
     width: 300px;
     overflow: hidden;
-    border: solid 1px black;
 }
 
 .first_f {
@@ -222,9 +221,10 @@ a {
     animation-name: moving;
 	animation-duration: 6s;
 	animation-direction: normal;
-    animation-delay: 6.15s;
+    animation-delay: 6.25s;
 	animation-iteration-count: infinite;
-    zoom: 75%
+    zoom: 75%;
+    transform: scaleX(-1);
 }
 
 .third_f {
@@ -238,9 +238,10 @@ a {
     animation-name: moving;
 	animation-duration: 6s;
 	animation-direction: normal;
-    animation-delay: 6.2s;
+    animation-delay: 6.4s;
 	animation-iteration-count: infinite;
-    zoom: 50%
+    zoom: 50%;
+    transform: scaleX(-1);
 }
 
 .fourth_f {
@@ -254,9 +255,75 @@ a {
     animation-name: moving;
 	animation-duration: 6s;
 	animation-direction: normal;
-    animation-delay: 6.4s;
+    animation-delay: 6.6s;
 	animation-iteration-count: infinite;
     zoom: 80%;
+}
+
+.fifth_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 65px;
+    background-color: wheat;
+    animation-name: moving;
+	animation-duration: 6s;
+	animation-direction: normal;
+    animation-delay: 7s;
+	animation-iteration-count: infinite;
+    zoom: 75%;
+    transform: scaleX(-1);
+}
+
+.sixth_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 25px;
+    background-color: wheat;
+    animation-name: moving;
+	animation-duration: 6s;
+	animation-direction: normal;
+    animation-delay: 7.4s;
+	animation-iteration-count: infinite;
+    zoom: 60%;
+    transform: scaleX(-1);
+}
+
+.seventh_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 40px;
+    background-color: wheat;
+    animation-name: moving;
+	animation-duration: 6s;
+	animation-direction: normal;
+    animation-delay: 7.5s;
+	animation-iteration-count: infinite;
+    zoom: 80%;
+}
+
+.eighth_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 85px;
+    background-color: wheat;
+    animation-name: moving;
+	animation-duration: 6s;
+	animation-direction: normal;
+    animation-delay: 7.8s;
+	animation-iteration-count: infinite;
+    zoom: 70%;
 }
 
 @keyframes moving {

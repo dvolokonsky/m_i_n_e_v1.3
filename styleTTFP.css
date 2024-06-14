@@ -403,3 +403,366 @@ label:hover {
 .backtoup a:hover {
     opacity: 0.7;
 }
+
+.fireflies_box {
+    position: fixed;
+    bottom: -20px;
+    left: 25px;
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.first_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 15px;
+    background-color: wheat;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-direction: normal;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    zoom: 90%;
+}
+
+.second_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 75px;
+    background-color: wheat;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-direction: normal;
+    animation-delay: 6.25s;
+    animation-iteration-count: infinite;
+    zoom: 75%;
+    transform: scaleX(-1);
+}
+
+.third_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 15px;
+    background-color: wheat;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-direction: normal;
+    animation-delay: 6.4s;
+    animation-iteration-count: infinite;
+    zoom: 50%;
+    transform: scaleX(-1);
+}
+
+.fourth_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 25px;
+    background-color: wheat;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-direction: normal;
+    animation-delay: 6.6s;
+    animation-iteration-count: infinite;
+    zoom: 80%;
+}
+
+.fifth_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 65px;
+    background-color: wheat;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-direction: normal;
+    animation-delay: 7s;
+    animation-iteration-count: infinite;
+    zoom: 75%;
+    transform: scaleX(-1);
+}
+
+.sixth_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 25px;
+    background-color: wheat;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-direction: normal;
+    animation-delay: 7.4s;
+    animation-iteration-count: infinite;
+    zoom: 60%;
+    transform: scaleX(-1);
+}
+
+.seventh_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 40px;
+    background-color: wheat;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-direction: normal;
+    animation-delay: 7.5s;
+    animation-iteration-count: infinite;
+    zoom: 80%;
+}
+
+.eighth_f {
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -30px;
+    margin-left: 85px;
+    background-color: wheat;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-direction: normal;
+    animation-delay: 7.8s;
+    animation-iteration-count: infinite;
+    zoom: 70%;
+}
+
+@keyframes moving {
+    1% {
+        bottom: -30px;
+        left: 40px;
+    }
+
+    6% {
+        /* 0 */
+        bottom: 20px;
+        left: 40px;
+    }
+
+    7% {
+        bottom: 25px;
+        left: 38.5px;
+    }
+
+    8% {
+        bottom: 28.5px;
+        left: 35px;
+    }
+
+    9% {
+        /* 1 */
+        bottom: 30px;
+        left: 30px;
+    }
+
+    10% {
+        bottom: 31.5px;
+        left: 25px;
+    }
+
+    11% {
+        bottom: 35px;
+        left: 21.5px;
+    }
+
+    12% {
+        /* 2 */
+        bottom: 40px;
+        left: 20px;
+    }
+
+    13% {
+        bottom: 45px;
+        left: 18.5px;
+    }
+
+    14% {
+        bottom: 48.5px;
+        left: 15px;
+    }
+
+    15% {
+        /* 3 */
+        bottom: 50px;
+        left: 10px;
+    }
+
+    18% {
+        /* 4 */
+        bottom: 70px;
+        left: 10px;
+        box-shadow: rgba(245, 222, 179, 0.3) 1px 0 10px;
+        opacity: 0.4;
+    }
+
+    19% {
+        bottom: 75px;
+        left: 11.5px;
+    }
+
+    20% {
+        bottom: 78.5px;
+        left: 15px;
+    }
+
+    21% {
+        /* 5 */
+        bottom: 80px;
+        left: 20px;
+    }
+
+    24% {
+        /* 6 */
+        bottom: 100px;
+        left: 20px;
+    }
+
+    25% {
+        bottom: 105px;
+        left: 21.5px;
+    }
+
+    26% {
+        bottom: 108.5px;
+        left: 25px;
+    }
+
+    27% {
+        /* 7 */
+        bottom: 110px;
+        left: 30px;
+    }
+
+    28% {
+        bottom: 111.5px;
+        left: 35px;
+    }
+
+    29% {
+        bottom: 115px;
+        left: 38.5px;
+    }
+
+    30% {
+        bottom: 120px;
+        left: 40px;
+    }
+
+    33% {
+        /* 8 */
+        bottom: 140px;
+        left: 40px;
+        box-shadow: rgb(245, 222, 179, 1) 2px 0 10px;
+        opacity: 1;
+    }
+
+    36% {
+        /* 9 */
+        bottom: 145px;
+        left: 38.5px;
+    }
+
+    37% {
+        bottom: 148.5px;
+        left: 35px;
+    }
+
+    38% {
+        bottom: 150px;
+        left: 30px;
+    }
+
+    39% {
+        /* 10 */
+        bottom: 151.5px;
+        left: 25px;
+    }
+
+    40% {
+        bottom: 155px;
+        left: 21.5px;
+    }
+
+    41% {
+        bottom: 160px;
+        left: 20px;
+    }
+
+    42% {
+        /* 11 */
+        bottom: 170px;
+        left: 20px;
+    }
+
+    43% {
+        /* 12 */
+        bottom: 175px;
+        left: 21.5px;
+    }
+
+    44% {
+        bottom: 178.5px;
+        left: 25px;
+    }
+
+    45% {
+        bottom: 180px;
+        left: 30px;
+    }
+
+    46% {
+        /* 13 */
+        bottom: 181.5px;
+        left: 35px;
+    }
+
+    47% {
+        bottom: 185px;
+        left: 38.5px;
+    }
+
+    48% {
+        bottom: 190px;
+        left: 40px;
+    }
+
+    50% {
+        /* 14 */
+        bottom: 210px;
+        left: 40px;
+        box-shadow: rgba(245, 222, 179, 0) 1px 0 10px;
+        opacity: 0;
+    }
+
+    50.1% {
+        bottom: 210px;
+        left: 40px;
+        box-shadow: none;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 210px;
+        left: 40px;
+        box-shadow: none;
+        opacity: 0;
+    }
+}
