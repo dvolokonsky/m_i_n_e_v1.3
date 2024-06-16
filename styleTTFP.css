@@ -408,9 +408,18 @@ label:hover {
     position: fixed;
     bottom: -20px;
     left: 25px;
-    height: 400px;
-    width: 300px;
+    height: 250px;
+    width: 105px;
     overflow: hidden;
+}
+
+@media screen and (max-width: 760px) {
+    .fireflies_box {
+        bottom: 0px !important;
+        left: 0px !important;
+        width: 1px !important;
+        height: 1px !important;
+    }
 }
 
 .first_f {
