@@ -26,8 +26,13 @@
 </script>
 <body>
     <div class="notice">
-        Поки що, додано лише перелік блоків. Інформація про кожнен з них, можливо, буде додана незабаром.
+        Поки що, додано лише перелік блоків. Інформація про кожнен з них, <span style="text-decoration: underline;">можливо</span>, 
+        буде додана незабаром.
     </div>
+    <div class="advert"> <!-- Advert -->
+        <p class="ad">Привіт, <span class="adv">не заважаю?</span></p>
+        <p class="vert">Помітив, що ти вже довгенько на сайті. То, може, якщо інформація була корисною, розкажеш про сайт другу?</p>
+    </div>  
     <div id="top" class="frame">
         <div class="sidebar"> <!--Sidebar-->
             <div class="logo">
@@ -36,11 +41,6 @@
             <a href="https://dvolokonsky.github.io/m_i_n_e_v1.3/">
                 <b class="back">Додому</b>
             </a>
-        </div>
-        <div class="advert"> <!-- Advert -->
-            <p class="ad">Привіт, <span class="adv">не заважаю?</span></p>
-            <p class="vert">Помітив, що ти вже довгенько на сайті. То, може, якщо інформація була корисною, розкажеш про
-                сайт другу?</p>
         </div>
         <div class="main">
             <div class="page_title">
@@ -54,7 +54,44 @@
                 </p>
             </div>
             <div id="list" class="list"> <!-- List -->
-            
+                <ul>
+                    <li>
+                        <div class="bottom">
+                            <input type="checkbox" id="toggleon" style="display: none;">
+                            <label class="whaton" for="toggleon">Деревина</label>
+                            <div class="texton">
+                    
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bottom">
+                            <input type="checkbox" id="toggletw" style="display: none;">
+                            <label class="whattw" for="toggletw">Руди</label>
+                            <div class="texttw">
+                    
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bottom">
+                            <input type="checkbox" id="toggleth" style="display: none;">
+                            <label class="whatth" for="toggleth">Цегла та камінь</label>
+                            <div class="textth">
+                    
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bottom">
+                            <input type="checkbox" id="togglefo" style="display: none;">
+                            <label class="whatfo" for="togglefo"></label>
+                            <div class="textfo">
+                    
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

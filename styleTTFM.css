@@ -707,3 +707,55 @@ a:hover {
         opacity: 0;
     }
 }
+
+#list ul {
+    line-height: 150%;
+    margin-top: 0px;
+}
+
+#list ul li {
+    color: wheat;
+    margin-left: -10px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 3px;
+}
+
+#list ul li label:hover {
+    opacity: 0.6;
+}
+
+.texton,
+.texttw,
+.textth,
+.textfo {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+#toggleon:checked~.texton,
+#toggletw:checked~.texttw,
+#toggleth:checked~.textth,
+#togglefo:checked~.textfo {
+    max-height: min-content;
+    min-height: 250px;
+}
+
+#toggleon:checked~.whaton,
+#toggletw:checked~.whattw,
+#toggleth:checked~.whatth,
+#togglefo:checked~.whatfo {
+    opacity: 0.6;
+}
+
+.whaton,
+.whattw,
+.whatth,
+.whatfo {
+    font-size: 16px;
+    color: wheat;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
