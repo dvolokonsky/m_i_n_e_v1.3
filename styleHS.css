@@ -194,15 +194,6 @@ a {
     overflow: hidden;
 }
 
-@media screen and (max-width: 760px) {
-    .fireflies_box {
-        bottom: 0px !important;
-        left: 0px !important;
-        width: 1px !important;
-        height: 1px !important;
-    }
-}
-
 .first_f {
     height: 7px;
     width: 7px;
