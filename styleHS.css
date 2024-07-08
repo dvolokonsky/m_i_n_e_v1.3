@@ -547,3 +547,27 @@ a {
         opacity: 0;
     }
 }
+
+.quote {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(245, 245, 245, 0.7);
+    border-left: 5px solid wheat;
+    border-radius: 5px;
+    height: max-content;
+}
+
+.marg {
+    padding-top: 15px;
+    padding-right: 18px;
+    padding-left: 12px;
+    font-weight: 500;
+}
+
+.margn {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-right: 18px;
+    padding-left: 12px;
+    font-weight: bolder;
+}
