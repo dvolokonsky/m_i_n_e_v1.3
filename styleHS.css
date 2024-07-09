@@ -557,17 +557,18 @@ a {
     height: max-content;
 }
 
-.marg {
-    padding-top: 15px;
+.quote p {
+    padding-bottom: 15px;
     padding-right: 18px;
     padding-left: 12px;
+}
+
+.marg {
+    padding-top: 15px;
     font-weight: 500;
 }
 
 .margn {
     padding-top: 5px;
-    padding-bottom: 15px;
-    padding-right: 18px;
-    padding-left: 12px;
-    font-weight: bolder;
+    font-weight: bold;
 }
