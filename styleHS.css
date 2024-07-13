@@ -572,3 +572,17 @@ a {
     padding-top: 5px;
     font-weight: bold;
 }
+
+.ulw {
+    color: whitesmoke;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 35px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+.ulw li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
