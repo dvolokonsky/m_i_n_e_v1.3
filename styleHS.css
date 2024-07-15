@@ -586,3 +586,12 @@ a {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.to {
+    color: wheat;
+    text-decoration: underline;
+}
+
+.to:hover {
+    opacity: 0.6;
+}
