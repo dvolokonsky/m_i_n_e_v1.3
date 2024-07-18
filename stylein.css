@@ -162,3 +162,12 @@ a {
 .a:hover {
     opacity: 0.6;
 }
+
+.to {
+    color: wheat;
+    text-decoration: underline;
+}
+
+.to:hover {
+    opacity: 0.6;
+}
