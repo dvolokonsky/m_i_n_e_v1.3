@@ -1,49 +1,48 @@
-@media screen and (min-width: 1280px) {
-    .frame,
-    .backtoup {
-        zoom: 120%;
-    }
-}
-
-@media screen and (max-width: 1110px) {
-    .frame,
-    .backtoup {
-        zoom: 80%;
-    }
-}
-
-@media screen and (max-width: 935px) {
-    .frame,
-    .backtoup {
-        zoom: 70%;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    .frame,
-    .backtoup {
-        zoom: 60%;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .frame,
-    .backtoup {
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .main {
         zoom: 50%;
     }
 }
 
-@media screen and (max-width: 550px) {
-    .frame,
-    .backtoup {
-        zoom: 42%;
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .main {
+        zoom: 60%;
     }
 }
 
-@media screen and (max-width: 450px) {
-    .frame,
-    .backtoup {
-        zoom: 35%;
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .main {
+        zoom: 70%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .main {
+        zoom: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1029px) {
+    .main {
+        zoom: 90%;
+    }
+}
+
+@media screen and (min-width: 1029px) and (max-width: 1285px) {
+    .main {
+        zoom: normal;
+    }
+}
+
+@media screen and (min-width: 1285px) and (max-width: 1680px) {
+    .main {
+        zoom: 115%;
+    }
+}
+
+@media screen and (min-width: 1680px) and (max-width: 7685px) {
+    .main {
+        zoom: 125%;
     }
 }
 
@@ -80,7 +79,6 @@ body {
     width: 852px !important;
     backdrop-filter: blur(4px);
     position: relative;
-
 }
 
 a {

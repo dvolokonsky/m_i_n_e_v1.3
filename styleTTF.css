@@ -1,42 +1,48 @@
-@media screen and (min-width: 1280px) {
-    .frame {
-        zoom: 120%;
-    }
-}
-
-@media screen and (max-width: 1110px) {
-    .frame {
-        zoom: 80%;
-    }
-}
-
-@media screen and (max-width: 935px) {
-    .frame {
-        zoom: 70%;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    .frame {
-        zoom: 60%;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .frame {
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .main {
         zoom: 50%;
     }
 }
 
-@media screen and (max-width: 550px) {
-    .frame {
-        zoom: 42%;
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .main {
+        zoom: 60%;
     }
 }
 
-@media screen and (max-width: 450px) {
-    .frame {
-        zoom: 35%;
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .main {
+        zoom: 70%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .main {
+        zoom: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1029px) {
+    .main {
+        zoom: 90%;
+    }
+}
+
+@media screen and (min-width: 1029px) and (max-width: 1285px) {
+    .main {
+        zoom: normal;
+    }
+}
+
+@media screen and (min-width: 1285px) and (max-width: 1680px) {
+    .main {
+        zoom: 115%;
+    }
+}
+
+@media screen and (min-width: 1680px) and (max-width: 7685px) {
+    .main {
+        zoom: 125%;
     }
 }
 
@@ -86,7 +92,7 @@ li {
     margin-right: 15px;
 }
 
-.frame {
+.main {
     margin: auto;
     border: 3px solid whitesmoke;
     border-radius: 10px;
@@ -145,7 +151,7 @@ li {
 
 }
 
-.main {
+.content {
     width: 802px;
     margin-left: 20px;
 }

@@ -1,49 +1,56 @@
-@media screen and (min-width: 1280px) {
-    .frame,
-    .advert {
-        zoom: 120%;
-    }
-}
-
-@media screen and (max-width: 1110px) {
-    .frame,
-    .advert {
-        zoom: 80%;
-    }
-}
-
-@media screen and (max-width: 935px) {
-    .frame,
-    .advert {
-        zoom: 70%;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    .frame,
-    .advert {
-        zoom: 60%;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .frame,
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .main,
     .advert {
         zoom: 50%;
     }
 }
 
-@media screen and (max-width: 550px) {
-    .frame,
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .main,
     .advert {
-        zoom: 42%;
+        zoom: 60%;
     }
 }
 
-@media screen and (max-width: 450px) {
-    .frame,
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .main,
     .advert {
-        zoom: 35%;
+        zoom: 70%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .main,
+    .advert {
+        zoom: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1029px) {
+    .main,
+    .advert {
+        zoom: 90%;
+    }
+}
+
+@media screen and (min-width: 1029px) and (max-width: 1285px) {
+    .main,
+    .advert {
+        zoom: normal;
+    }
+}
+
+@media screen and (min-width: 1285px) and (max-width: 1680px) {
+    .main,
+    .advert {
+        zoom: 115%;
+    }
+}
+
+@media screen and (min-width: 1680px) and (max-width: 7685px) {
+    .main,
+    .advert {
+        zoom: 125%;
     }
 }
 
@@ -92,7 +99,7 @@ label:hover {
     opacity: 0.6;
 }
 
-.frame {
+.main {
     margin: auto;
     border: 3px solid whitesmoke;
     border-radius: 10px;
@@ -135,7 +142,7 @@ label:hover {
     
 }
 
-.main{
+.content {
     width: 802px;
     margin-left: 20px;
 }
