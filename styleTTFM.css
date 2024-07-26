@@ -759,3 +759,14 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+.il {
+    position: relative;
+    width: 250px;
+}
+
+.il img {
+    position: absolute;
+    right: 0px;
+    height: 16px;
+}
