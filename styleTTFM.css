@@ -1,47 +1,55 @@
 @media screen and (min-width: 500px) and (max-width: 600px) {
-    .main {
+    .main,
+    .fireflies_box {
         zoom: 50%;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 700px) {
-    .main {
+    .main,
+    .fireflies_box {
         zoom: 60%;
     }
 }
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
-    .main {
+    .main,
+    .fireflies_box {
         zoom: 70%;
     }
 }
 
 @media screen and (min-width: 800px) and (max-width: 900px) {
-    .main {
+    .main,
+    .fireflies_box {
         zoom: 80%;
     }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1029px) {
-    .main {
+    .main,
+    .fireflies_box {
         zoom: 90%;
     }
 }
 
 @media screen and (min-width: 1029px) and (max-width: 1285px) {
-    .main {
+    .main,
+    .fireflies_box {
         zoom: normal;
     }
 }
 
 @media screen and (min-width: 1285px) and (max-width: 1680px) {
-    .main {
+    .main,
+    .fireflies_box {
         zoom: 115%;
     }
 }
 
 @media screen and (min-width: 1680px) and (max-width: 7685px) {
-    .main {
+    .main,
+    .fireflies_box {
         zoom: 125%;
     }
 }
@@ -90,6 +98,7 @@ a:hover {
 	animation-duration: 4s;
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
+    z-index: 1;
 }
 
 @keyframes shining {
@@ -195,6 +204,7 @@ a:hover {
     width: 5px;
     height: 5px;
     overflow: hidden;
+    z-index: 2;
 }
 
 @keyframes adver {
@@ -344,7 +354,36 @@ a:hover {
     overflow: hidden;
 }
 
-@media screen and (max-width: 760px) {
+.fireflies_box {
+    animation-name: hide;
+    animation-iteration-count: 1;
+    animation-duration: 512s;
+    opacity: 1;
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+
+    64% {
+        opacity: 1;
+    }
+
+    65% {
+        opacity: 0 !important;
+    }
+
+    99% {
+        opacity: 0 !important;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1200px) {
     .fireflies_box {
         bottom: 0px !important;
         left: 0px !important;
@@ -708,7 +747,6 @@ a:hover {
 }
 
 /*TTFblocks code start*/
-
 #list ul {
     line-height: 150%;
     margin-top: 0px;
@@ -760,7 +798,6 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
 /*TTFblocks code end*/
 
 .il {
