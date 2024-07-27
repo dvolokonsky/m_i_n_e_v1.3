@@ -106,6 +106,7 @@ label:hover {
     width: 852px !important;
     backdrop-filter: blur(4px);
     position: relative;
+    z-index: 1;
 }
 
 .sidebar{
@@ -223,6 +224,7 @@ label:hover {
     width: 5px;
     height: 5px;
     overflow: hidden;
+    z-index: 2;
 }
 
 @keyframes adver {

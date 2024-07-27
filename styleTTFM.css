@@ -354,35 +354,6 @@ a:hover {
     overflow: hidden;
 }
 
-.fireflies_box {
-    animation-name: hide;
-    animation-iteration-count: 1;
-    animation-duration: 512s;
-    opacity: 1;
-}
-
-@keyframes hide {
-    0% {
-        opacity: 1;
-    }
-
-    64% {
-        opacity: 1;
-    }
-
-    65% {
-        opacity: 0 !important;
-    }
-
-    99% {
-        opacity: 0 !important;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 @media screen and (max-width: 1200px) {
     .fireflies_box {
         bottom: 0px !important;
@@ -404,7 +375,7 @@ a:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 6s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 90%;
 }
 
@@ -420,7 +391,7 @@ a:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 6.25s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 75%;
     transform: scaleX(-1);
 }
@@ -437,7 +408,7 @@ a:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 6.4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 50%;
     transform: scaleX(-1);
 }
@@ -454,7 +425,7 @@ a:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 6.6s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 80%;
 }
 
@@ -470,7 +441,7 @@ a:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 7s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 75%;
     transform: scaleX(-1);
 }
@@ -487,7 +458,7 @@ a:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 7.4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 60%;
     transform: scaleX(-1);
 }
@@ -504,7 +475,7 @@ a:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 7.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 80%;
 }
 
@@ -520,7 +491,7 @@ a:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 7.8s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 70%;
 }
 

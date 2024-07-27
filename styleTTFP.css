@@ -111,9 +111,10 @@ li {
     height: min-content;
     min-height: 700px;
     animation-name: shining;
-	animation-duration: 4s;
-	animation-direction: alternate;
-	animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    z-index: 1;
 }
 
 @keyframes shining {
@@ -336,6 +337,7 @@ label:hover {
     width: 5px;
     height: 5px;
     overflow: hidden;
+    z-index: 2;
 }
 
 @keyframes adver {
@@ -420,7 +422,7 @@ label:hover {
     overflow: hidden;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1200px) {
     .fireflies_box {
         bottom: 0px !important;
         left: 0px !important;
@@ -441,7 +443,7 @@ label:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 6s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 90%;
 }
 
@@ -457,7 +459,7 @@ label:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 6.25s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 75%;
     transform: scaleX(-1);
 }
@@ -474,7 +476,7 @@ label:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 6.4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 50%;
     transform: scaleX(-1);
 }
@@ -491,7 +493,7 @@ label:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 6.6s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 80%;
 }
 
@@ -507,7 +509,7 @@ label:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 7s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 75%;
     transform: scaleX(-1);
 }
@@ -524,7 +526,7 @@ label:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 7.4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 60%;
     transform: scaleX(-1);
 }
@@ -541,7 +543,7 @@ label:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 7.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 80%;
 }
 
@@ -557,7 +559,7 @@ label:hover {
     animation-duration: 6s;
     animation-direction: normal;
     animation-delay: 7.8s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 54;
     zoom: 70%;
 }
 
