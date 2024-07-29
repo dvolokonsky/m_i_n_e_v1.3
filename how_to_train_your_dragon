@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <title>Як приборкати дракона. Ice and Fire.</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="styleli.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(78, 48, 103);
+        }
+    </style>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0EDCD53FKZ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0EDCD53FKZ');
+</script>
+<body>
+    <div class="backtoup"> <!-- Button -->
+        <a href="#top">
+            <img width="60px" src="img/next.png">
+        </a>
+    </div>
+    <div id="top" class="main">
+        <div class="sidebar"> <!--Sidebar-->
+            <div class="logo">
+                <img src="img/new_logo.png" height="60px">
+            </div>
+            <a href="https://m-i-n-e.com/">
+                <b class="back">Додому</b>
+            </a>
+        </div>
+        <div class="content">
+            <p class="tit">Як приборкати дракона. Ice and Fire.</p>
+            <div>
+                <input type="checkbox" id="toggle" style="display: none;">
+                <label class="what" for="toggle">Мапа сторінки</label>
+                <div class="text"> <!-- Links -->
+                    <ul>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
