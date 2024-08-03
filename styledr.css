@@ -243,3 +243,18 @@ label:hover {
     border-radius: 3px;
     margin-top: 10px;
 }
+
+.flex {
+    display: flex;
+    width: 822px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.flex img {
+    width: 256px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
