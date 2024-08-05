@@ -258,3 +258,31 @@ label:hover {
     margin-top: -15px;
     margin-bottom: 5px;
 }
+
+.stages {
+    color: whitesmoke;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.stages p {
+    position: relative;
+    width: 802px;
+    height: 20px;
+}
+
+.one {
+    position: absolute;
+    left: 0px;
+    font-weight: bold;
+}
+
+.two {
+    position: absolute;
+    left: 200px;
+}
+
+.three {
+    position: absolute;
+    left: 600px;
+}
