@@ -167,11 +167,12 @@ label:hover {
     display: flex;
     margin-top: 38px;
     margin-bottom: 30px;
-    margin-left: 100px;
+    width: 802px;
+    padding-left: 45px;
 }
 
 .thr {
-    width: 300px;
+    width: 400px;
 }
 
 .a {
@@ -195,7 +196,7 @@ label:hover {
 
 .n {
     text-indent: 8px;
-    font-size: 20px;
+    font-size: 16px;
     color: whitesmoke;
     width: 675px;
     text-align: justify;
