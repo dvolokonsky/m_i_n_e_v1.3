@@ -286,3 +286,8 @@ label:hover {
     position: absolute;
     left: 605px;
 }
+
+#bold span {
+    color: wheat;
+    font-weight: 800;
+}
