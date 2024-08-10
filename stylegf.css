@@ -88,16 +88,6 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
-a {
-    text-decoration: none;
-    color: wheat;
-}
-
-a:hover {
-    opacity: 0.6;
-    text-decoration: underline;
-}
-
 .main {
     margin: auto;
     border: 3px solid whitesmoke;
@@ -251,17 +241,13 @@ a:hover {
     text-indent: 8px;
     color: whitesmoke;
     text-align: justify;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 .horyline {
     background-color: wheat;
-    margin-left: 15px;
-    margin-right: 15px;
     height: 3px;
     border-radius: 3px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* Випадаючі  меню */
@@ -274,21 +260,59 @@ a:hover {
 
 #toggle:checked~.text {
     max-height: min-content;
+    margin-top: -34px;
 }
 
 #toggle:checked~.what {
-    opacity: 0.6;
+    opacity: 0;
 }
 
 label:hover {
-    opacity: 0.6;
+    border-bottom: 1.5px solid whitesmoke;
 }
 
 .what {
-    font-size: 24px;
+    font-size: 16px;
     color: whitesmoke;
-    font-weight: bolder;
-    padding-left: 10px;
+    margin-left: 8px;
     text-decoration: none;
     cursor: pointer;
+}
+
+.a {
+    opacity: 1;
+}
+
+.b {
+    opacity: 0.9;
+}
+
+.c {
+    opacity: 0.8;
+}
+
+.d {
+    opacity: 0.7;
+}
+
+.e {
+    opacity: 0.6;
+}
+
+.f {
+    opacity: 0.5;
+}
+
+.g {
+    opacity: 0.4;
+}
+
+.h {
+    opacity: 0.3;
+}
+
+#toggle:checked~.what span {
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
 }
