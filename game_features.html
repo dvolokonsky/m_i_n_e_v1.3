@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="styleho.css">
+    <link rel="stylesheet" type="text/css" href="stylegf.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
@@ -44,7 +44,41 @@
             <p class="title">
                 <b>Ігрові механіки</b>
             </p>
-            
+            <p class="small_section_title">
+                Голод
+            </p>
+            <p class="more_specifically">
+                Механіка голоду є важливою частиною виживання гравця. Вона визначає, наскільки ефективно твій персонаж може діяти
+                (плисти, бігти чи відновлювати здоров’я).
+            </p>
+            <div style="margin-top: -15px;">
+                <input type="checkbox" id="toggle" style="display: none;">
+                <label class="what" for="toggle">. . .</label>
+                <div class="text"> 
+                    <p class="specifica">
+                        Смуга голоду відображається як десять іконок м'яса, які знаходяться поруч зі смугою здоров'я над хотбаром. Кожна іконка
+                        складається з двох одиниць голоду, і, відповідно, вся смуга містить 20 одиниць. Смуга голоду зменшується, коли гравець
+                        виконує різні дії, такі як біг, плавання, копання, нанесення шкоди, стрибки тощо.
+                    </p>
+                    <p class="specifica">
+                        Якщо смуга голоду повністю заповнена (20 одиниць), гравець поступово відновлює здоров'я. Якщо голод падає нижче 17
+                        одиниць, здоров’я не відновлюється. Персонаж вже не може бігти або плисти коли має 6 або менше одиниць голоду. Якщо
+                        смуга голоду падає до нуля, гравець починає отримувати одну шкоду кожні чотири секунди.
+                    </p>
+                    <p class="specifica">
+                        На легкій складності гравець перестає отримувати шкоду від голоду, коли здоров’я опускається до 10 одиниць (5 сердець).
+                        На звичайній складнсті голод залишить гравцю 1 одиницю здоров’я, а на складній складності гравець буде тримувати шкоду
+                        доки не поїсть або ж помре. До речі, броня та ефект поглинання не зменшують шкоду від голоду.
+                    </p>
+                    <p class="specifica">
+                        У творчому режимі смуга голоду прихована та не використовується.
+                    </p>
+                    <p class="specifica">
+                        Їжа – головний спосіб відновлення голоду. У грі існує безліч видів їжі: від овочів та м'яса до борщу. Кожен вид їжі
+                        відновлює різну кількість одиниць голоду та насичення.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
