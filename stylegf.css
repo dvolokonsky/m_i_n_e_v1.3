@@ -314,9 +314,3 @@ label:hover {
 .h {
     opacity: 0.3;
 }
-
-#toggle:checked~label {
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden;
-}
