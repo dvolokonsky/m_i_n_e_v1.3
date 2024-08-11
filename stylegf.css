@@ -252,18 +252,21 @@ body {
 
 /* Випадаючі  меню */
 
-.text {
+.text,
+.texttwo {
     max-height: 0;
     overflow: hidden;
     text-indent: 6px;
 }
 
-#toggle:checked~.text {
+#toggle:checked~.text,
+#toggletwo:checked~.texttwo {
     max-height: min-content;
     margin-top: -34px;
 }
 
-#toggle:checked~.what {
+#toggle:checked~.labeone,
+#toggletwo:checked~.labetwo {
     opacity: 0;
 }
 
@@ -271,7 +274,8 @@ label:hover {
     border-bottom: 1.5px solid whitesmoke;
 }
 
-.what {
+.labeone,
+.labetwo {
     font-size: 16px;
     color: whitesmoke;
     margin-left: 8px;
@@ -311,7 +315,7 @@ label:hover {
     opacity: 0.3;
 }
 
-#toggle:checked~.what span {
+#toggle:checked~label {
     height: 1px !important;
     width: 1px !important;
     overflow: hidden;
