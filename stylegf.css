@@ -216,6 +216,15 @@ body {
     padding-left: 10px;
 }
 
+.j {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -18px;
+    margin-left: 10px;
+    font-style: italic;
+}
+
 .section_title {
     font-size: 18px;
     padding-left: 10px;
@@ -262,15 +271,16 @@ body {
 #toggle:checked~.text,
 #toggletwo:checked~.texttwo {
     max-height: min-content;
-    margin-top: -34px;
+    margin-top: -15px;
 }
 
 #toggle:checked~.labeone,
 #toggletwo:checked~.labetwo {
-    opacity: 0;
+    display: none;
 }
 
-label:hover {
+.labeone:hover,
+.labetwo:hover {
     border-bottom: 1.5px solid whitesmoke;
 }
 
@@ -313,4 +323,33 @@ label:hover {
 
 .h {
     opacity: 0.3;
+}
+
+/* Кнопки "Сховати" */
+
+.labclon,
+.labcltw {
+    color: wheat;
+    font-size: 16px;
+    font-weight: bold;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.labclon:hover,
+.labcltw:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#toggle:checked~.labclon,
+#toggletwo:checked~.labcltw {
+    display: block;
+}
+
+#closeone:checked~.text,
+#closetwo:checked~.texttwo {
+    max-height: 0;
+    overflow: hidden;
 }
