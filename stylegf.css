@@ -261,31 +261,51 @@ body {
 
 /* Випадаючі  меню */
 
-.text,
-.texttwo {
+.text {
     max-height: 0;
     overflow: hidden;
     text-indent: 6px;
 }
 
-#toggle:checked~.text,
-#toggletwo:checked~.texttwo {
+#toggle:checked~.text {
     max-height: min-content;
     margin-top: -15px;
 }
 
-#toggle:checked~.labeone,
-#toggletwo:checked~.labetwo {
+#toggle:checked~.labeone {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    color: wheat;
+    font-weight: bold;
+    height: min-content;
+    overflow: visible;
+}
+
+#toggle:checked~.labeone span {
     display: none;
 }
 
-.labeone:hover,
-.labetwo:hover {
+.hidetext {
+    opacity: 0;
+    display: none;
+}
+
+#toggle:checked~.labeone .hidetext {
+    opacity: 1 !important;
+    display: block !important;
+}
+
+#toggle:checked~.labeone:hover {
+    border-bottom: none;
+    opacity: 0.6;
+}
+
+.labeone:hover {
     border-bottom: 1.5px solid whitesmoke;
 }
 
-.labeone,
-.labetwo {
+.labeone {
     font-size: 16px;
     color: whitesmoke;
     margin-left: 8px;
