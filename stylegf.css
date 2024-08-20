@@ -261,18 +261,21 @@ body {
 
 /* Випадаючі  меню */
 
-.text {
+.text,
+.texttwo {
     max-height: 0;
     overflow: hidden;
     text-indent: 6px;
 }
 
-#toggle:checked~.text {
+#toggle:checked~.text,
+#toggletwo:checked~.texttwo {
     max-height: min-content;
     margin-top: -15px;
 }
 
-#toggle:checked~.labeone {
+#toggle:checked~.labeone,
+#toggletwo:checked~.labetwo {
     position: absolute;
     bottom: -10px;
     left: 10px;
@@ -282,30 +285,36 @@ body {
     overflow: visible;
 }
 
-#toggle:checked~.labeone span {
+#toggle:checked~.labeone span,
+#toggletwo:checked~.labetwo span {
     display: none;
 }
 
-.hidetext {
+.hidetext,
+.hidetexttwo {
     opacity: 0;
     display: none;
 }
 
-#toggle:checked~.labeone .hidetext {
+#toggle:checked~.labeone .hidetext,
+#toggletwo:checked~.labetwo .hidetexttwo {
     opacity: 1 !important;
     display: block !important;
 }
 
-#toggle:checked~.labeone:hover {
+#toggle:checked~.labeone:hover,
+#toggletwo:checked~.labetwo:hover {
     border-bottom: none;
     opacity: 0.6;
 }
 
-.labeone:hover {
+.labeone:hover,
+.labetwo:hover {
     border-bottom: 1.5px solid whitesmoke;
 }
 
-.labeone {
+.labeone,
+.labetwo {
     font-size: 16px;
     color: whitesmoke;
     margin-left: 8px;
@@ -343,33 +352,4 @@ body {
 
 .h {
     opacity: 0.3;
-}
-
-/* Кнопки "Сховати" */
-
-.labclon,
-.labcltw {
-    color: wheat;
-    font-size: 16px;
-    font-weight: bold;
-    
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.labclon:hover,
-.labcltw:hover {
-    opacity: 0.6;
-    cursor: pointer;
-}
-
-#toggle:checked~.labclon,
-#toggletwo:checked~.labcltw {
-    display: block;
-}
-
-#closeone:checked~.text,
-#closetwo:checked~.texttwo {
-    max-height: 0;
-    overflow: hidden;
 }
