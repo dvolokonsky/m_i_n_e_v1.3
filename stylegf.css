@@ -226,17 +226,18 @@ body {
 }
 
 .section_title {
-    font-size: 18px;
-    padding-left: 10px;
-    color: wheat;
-}
-
-.small_section_title {
     font-size: 16px;
     margin-left: 25px;
     padding: 5px;
     color: wheat;
-    font-weight: 800;
+    font-weight: bold;
+}
+
+.small_section_title {
+    font-size: 15px;
+    margin-left: 30px;
+    color: whitesmoke;
+    font-weight: bolder;
 }
 
 .more_specifically {
@@ -299,6 +300,7 @@ body {
 .hidetextthree {
     opacity: 0;
     display: none;
+    font-style: italic;
 }
 
 #toggle:checked~.labeone .hidetext,
