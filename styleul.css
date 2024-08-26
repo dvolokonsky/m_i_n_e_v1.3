@@ -80,19 +80,13 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
-a{
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 16px;
-}
-
 a:hover {
     opacity: 0.6;
 }
 
-li{
+li, a {
     color: whitesmoke;
-    text-align: justify;
+    text-decoration: none;
 }
 
 label:hover {
@@ -155,8 +149,31 @@ label:hover {
     color: wheat;
 }
 
+.small_section_title,
+.small_section_title a {
+    font-size: 18px;
+    margin-left: 15px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.small_section_title a:hover {
+    text-decoration: underline;
+}
+
 .more_specifically{
     text-indent: 8px;
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.horyline {
+    background-color: wheat;
+    height: 3px;
+    border-radius: 3px;
+    margin-top: 20px;
 }
 
 .important{
