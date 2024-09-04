@@ -356,13 +356,12 @@ label:hover {
     display: flex;
     overflow: hidden;
     text-indent: 6px;
-    zoom: 75%;
 }
 
 #toggletwo:checked~.texttwo,
 #togglethree:checked~.textthree {
     max-height: min-content;
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 #toggletwo:checked~.labetwo,
@@ -392,6 +391,7 @@ label:hover {
 #togglethree:checked~.labethree .hidetextthree {
     opacity: 1 !important;
     display: block !important;
+    
 }
 
 #toggletwo:checked~.labetwo:hover,
@@ -402,25 +402,26 @@ label:hover {
 
 .labetwo:hover,
 .labethree:hover {
-    border-bottom: 1.5px solid whitesmoke;
+    border-bottom: 2px solid wheat;
 }
 
 .labetwo,
 .labethree {
     font-size: 16px;
-    color: whitesmoke;
+    color: wheat;
+    font-weight: bold;
     margin-left: 8px;
     text-decoration: none;
     cursor: pointer;
 }
 
 .stick {
-    width: 2px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    width: 1.5px;
+    height: 83px;
+    margin-top: 13px;
     background-color: whitesmoke;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .texttwo div p,
@@ -429,8 +430,17 @@ label:hover {
     margin-top: 12px;
     margin-bottom: 12px;
     border-bottom: 2px solid whitesmoke;
-    margin-left: -40px;
-    width: 230px;
+    width: 180px;
+}
+
+.texttwo a,
+.textthree a {
+    color: whitesmoke;
+}
+
+.texttwo a:hover,
+.textthree a:hover {
+    text-decoration: none;
 }
 
 .rel {
