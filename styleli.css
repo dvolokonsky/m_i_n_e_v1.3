@@ -165,7 +165,7 @@ a:hover {
 }
 
 .g{
-    color: darkgrey;
+    color: black;
     font-weight: bold;
 }
 
@@ -426,7 +426,6 @@ label:hover {
 
 .texttwo div p,
 .textthree div p {
-    list-style-type: none;
     margin-top: 12px;
     margin-bottom: 12px;
     border-bottom: 2px solid whitesmoke;
