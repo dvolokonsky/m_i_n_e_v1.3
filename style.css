@@ -160,6 +160,15 @@ li{
 	left: 10px;
 }
 
+@media screen and (max-width: 1135px) {
+	.Updates_required {
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden;
+		opacity: 0;
+	}
+}
+
 .sections {
 	font-size: 21px;
 	font-weight: bolder;
