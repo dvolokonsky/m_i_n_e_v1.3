@@ -765,3 +765,23 @@ label:hover {
     margin-left: -20px;
     line-height: 1.5;
 }
+
+.more_specifically {
+    text-indent: 8px;
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.download a {
+    color: wheat;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.horyline {
+    background-color: wheat;
+    height: 3px;
+    border-radius: 3px;
+}
