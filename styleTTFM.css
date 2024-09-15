@@ -313,6 +313,10 @@ a:hover {
     opacity: 0.6;
 }
 
+#not_ready a:hover {
+    cursor: default;
+}
+
 @media screen and (max-width: 1615px) {
     .notice {
         opacity: 0 !important;
