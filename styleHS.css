@@ -610,3 +610,17 @@ a {
 .to:hover {
     opacity: 0.6;
 }
+
+#TTFB {
+    margin: auto;
+    padding-left: 100px;
+    height: 100px;
+}
+
+#TTFBf {
+    display: flex;
+}
+
+#TTFBf ul {
+    width: max-content;
+}
