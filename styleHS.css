@@ -624,3 +624,12 @@ a {
 #TTFBf ul {
     width: max-content;
 }
+
+.craft {
+    margin-left: 20px;
+    height: 164px;
+    outline: 2px whitesmoke solid;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
