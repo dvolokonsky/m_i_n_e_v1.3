@@ -1,5 +1,4 @@
 @media screen and (min-width: 500px) and (max-width: 600px) {
-
     .main,
     .backtoup {
         zoom: 50%;
@@ -7,7 +6,6 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 700px) {
-
     .main,
     .backtoup {
         zoom: 60%;
@@ -15,7 +13,6 @@
 }
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
-
     .main,
     .backtoup {
         zoom: 70%;
@@ -23,7 +20,6 @@
 }
 
 @media screen and (min-width: 800px) and (max-width: 900px) {
-
     .main,
     .backtoup {
         zoom: 80%;
@@ -31,7 +27,6 @@
 }
 
 @media screen and (min-width: 900px) and (max-width: 1029px) {
-
     .main,
     .backtoup {
         zoom: 90%;
@@ -39,7 +34,6 @@
 }
 
 @media screen and (min-width: 1029px) and (max-width: 1285px) {
-
     .main,
     .backtoup {
         zoom: normal;
@@ -47,7 +41,6 @@
 }
 
 @media screen and (min-width: 1285px) and (max-width: 1680px) {
-
     .main,
     .backtoup {
         zoom: 115%;
@@ -55,7 +48,6 @@
 }
 
 @media screen and (min-width: 1680px) and (max-width: 7685px) {
-
     .main,
     .backtoup {
         zoom: 125%;
@@ -264,7 +256,8 @@ body {
 
 .text,
 .texttwo,
-.textthree {
+.textthree,
+.textfour {
     max-height: 0;
     overflow: hidden;
     text-indent: 6px;
@@ -272,14 +265,16 @@ body {
 
 #toggle:checked~.text,
 #toggletwo:checked~.texttwo,
-#togglethree:checked~.textthree {
+#togglethree:checked~.textthree,
+#togglefour:checked~.textfour {
     max-height: min-content;
     margin-top: -15px;
 }
 
 #toggle:checked~.labeone,
 #toggletwo:checked~.labetwo,
-#togglethree:checked~.labethree {
+#togglethree:checked~.labethree,
+#togglefour:checked~.labefour {
     position: absolute;
     bottom: -10px;
     left: 10px;
@@ -291,13 +286,15 @@ body {
 
 #toggle:checked~.labeone span,
 #toggletwo:checked~.labetwo span,
-#togglethree:checked~.labethree span {
+#togglethree:checked~.labethree span,
+#togglefour:checked~.labefour span {
     display: none;
 }
 
 .hidetext,
 .hidetexttwo,
-.hidetextthree {
+.hidetextthree,
+.hidetextfour {
     opacity: 0;
     display: none;
     font-style: italic;
@@ -305,27 +302,31 @@ body {
 
 #toggle:checked~.labeone .hidetext,
 #toggletwo:checked~.labetwo .hidetexttwo,
-#togglethree:checked~.labethree .hidetextthree {
+#togglethree:checked~.labethree .hidetextthree,
+#togglefour:checked~.labefour .hidetextfour {
     opacity: 1 !important;
     display: block !important;
 }
 
 #toggle:checked~.labeone:hover,
 #toggletwo:checked~.labetwo:hover,
-#togglethree:checked~.labethree:hover {
+#togglethree:checked~.labethree:hover,
+#togglefour:checked~.labefour:hover {
     border-bottom: none;
     opacity: 0.6;
 }
 
 .labeone:hover,
 .labetwo:hover,
-.labethree:hover {
+.labethree:hover,
+.labefour:hover {
     border-bottom: 1.5px solid whitesmoke;
 }
 
 .labeone,
 .labetwo,
-.labethree {
+.labethree,
+.labefour {
     font-size: 16px;
     color: whitesmoke;
     margin-left: 8px;
@@ -363,4 +364,23 @@ body {
 
 .h {
     opacity: 0.3;
+}
+
+.i {
+    opacity: 0.25;
+}
+
+#source {
+    width: 802px;
+    text-align: center;
+}
+
+.source {
+    color: wheat;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.source:hover {
+    opacity: 0.6;
 }
