@@ -447,21 +447,30 @@ label:hover {
     width: 400px;
 }
 
-.quote {
+.margn {
     margin-left: 5px;
     margin-right: 5px;
     background-color: rgba(245, 245, 245, 0.7);
-    border-left: 5px solid wheat;
+    color: black;
     border-radius: 5px;
     height: max-content;
-}
-
-.margn {
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 18px;
     padding-left: 12px;
     font-weight: bolder;
     text-align: justify;
-    line-height: 120%;
+}
+
+.mred {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+    height: max-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bolder;
 }
