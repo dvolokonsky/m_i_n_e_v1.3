@@ -1,0 +1,214 @@
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .main {
+        zoom: 50%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .main {
+        zoom: 60%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .main {
+        zoom: 70%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .main {
+        zoom: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1029px) {
+    .main {
+        zoom: 90%;
+    }
+}
+
+@media screen and (min-width: 1029px) and (max-width: 1285px) {
+    .main {
+        zoom: normal;
+    }
+}
+
+@media screen and (min-width: 1285px) and (max-width: 1680px) {
+    .main {
+        zoom: 115%;
+    }
+}
+
+@media screen and (min-width: 1680px) and (max-width: 7685px) {
+    .main {
+        zoom: 125%;
+    }
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgb(78, 48, 103);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(245, 222, 179, 0.8);
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar-corner {
+    background-color: rgb(78, 48, 103);
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    padding-top: 15px;
+}
+
+.main {
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: auto;
+    width: 852px !important;
+    height: max-content;
+    backdrop-filter: blur(4px);
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 22px;
+    margin: 18px 18px 18px 25px;
+    color: wheat;
+}
+
+/**/
+
+.slider {
+    width: 816px !important;
+    height: 459px !important;
+    margin: 18px;
+    border-radius: 15px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.seven {
+    display: flex;
+    animation-name: slider;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 32s;
+}
+
+.seven div {
+    min-width: 816px;
+    height: 459px;
+}
+
+.box1 {
+    background-color: wheat;
+}
+
+.box2 {
+    background-color: aqua;
+}
+
+.box3 {
+    background-color: blue;
+}
+
+.box4 {
+    background-color: brown;
+}
+
+.box5 {
+    background-color: burlywood;
+}
+
+.box6 {
+    background-color: chartreuse;
+}
+
+.box7 {
+    background-color: darkmagenta;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    15% {
+        transform: translateX(-816px);
+    }
+
+    25% {
+        transform: translateX(-816px);
+    }
+
+    30% {
+        transform: translateX(-1632px);
+    }
+
+    40% {
+        transform: translateX(-1632px);
+    }
+
+    45% {
+        transform: translateX(-2448px);
+    }
+
+    55% {
+        transform: translateX(-2448px);
+    }
+
+    60% {
+        transform: translateX(-3264px);
+    }
+
+    70% {
+        transform: translateX(-3264px);
+    }
+
+    75% {
+        transform: translateX(-4080px);
+    }
+
+    85% {
+        transform: translateX(-4080px);
+    }
+
+    90% {
+        transform: translateX(-4896px);
+    }
+
+    99% {
+        transform: translateX(-4896px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
